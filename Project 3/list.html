@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Tours list</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+
+<body>
+
+<div class="container mt-3">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
+
+        <a class="navbar-brand mr-2" href="#"><b>Touradmin</b></a>
+
+        <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
+                data-target="#navbarNav" data-toggle="collapse" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <img alt="" class="ml-5"
+                             src=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAYAAAArK+5dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAVWSURBVHgBtZV7UFRVAMa/fbHvxWUXWFhxeaW4+IBAC6EHpVNTOpZmOdaYOVOYNeU/zmTmDP2RTaUzDs1YpIiaUllOJeqgZFoTkVC8Kp4LLCwL+4a7D3bv7t57ukujQ1mKWt/cO3PvPed8v3O+87jA/ywe/iMRQnhlZW9KVYaMbIFClkHTrGvfZFfjbQNixvsrKoqIxrA+krTwgRGnP00YJ1EqhDz/2ZNnDt0WoLq6+u5kheotxMnvs0Eg6HMGYRblIDdLB3bChZqa051C3IKqqqqUKT192zxffLW91jqizBynkP18GXIK8rFYTkGdPRs/t7Og6HD4pgGHKyuz9OAdMFnGSuu1OjT19GHcYUPzd/VwP7Ic2oR4SHnDODnsgJeauLkR7N6xw5g6z1hnr6hIOxYI4/f2Fvg9TmgIgebOPChnp0ApE8M02I/By+cR8nlrZwx478DRjCydptbq8KZJbA7OxAyf2wEtE8UetQahzAwI+Qz33YSGH5sgDZhcIm+4cUaA/XL5IoVSc3CMl5A5ZuuBTqHGR3wT3Jx5sUIB8YsvILryYViHzOjtG0BPTy+cdsenrz11r+WaVXQREN4PMFwBqQRk2er4Z39JzXon/O4JZaeVQmioGZmJcdCKgCwJD9lFSyBXSmCzjmDIYkVXVw8uX24ZNluGl/R3dDj+MoKm9HTd3NDkcSoY1IyFwyxNoG6laX3jwuUipncUTm8QIpURyQIXio1q3GFIA4+huZ4PwTJqQ3//ILq7TeyYw74zZh7zvAq4mA6JPhqsUQYDpQgEIWBZ2Ph81IvjYZGmImL3QCKVQa2SIz5tDrfqGyEK0+i30BhzjGN4eISLpg+mfvPnnc3Nx6/4TgEId2QEZiVXRehwKR8h0EIW7gjQHyFoiTcgxGUuFwmh16iwwJAIvYygfcQAV38tJgKJsDs9GBgYgsk0eMFsndj6p+U0wOSa2ZsliZG1Yl8UrJ+A9gLWcYBbBwgYFiFNp4VOm4BMXTwUjh7kHtqDn/IfwrlIMmRUJ6RRCoNmS5Pb7djkHTF5pscu9KxLmSNexpbzRBGxIMQD4yUIjqHJ5ZEd/m1W/obMvIKS3MxkqIQMxhq+RN6ZT3DEUIhWjw8+XwB+ihAJZasbd0w883fzKYBgRXCboBBqxs+4SVAgYd2y0KiPvLSr2biXL5eUFCWrQEa70XbqGFbZzThvLEEdRRCxWsB6qXCUGt9pJ9b3MWKi8Q/ieU6p56iX8ZmANxSVh4lgvJcV+uMS8svrjJ/98KtKTJxDmO9yId1uxT1JeryckIMkbnKX+hzcbdtbFvBsn575NYDpL+1bkGRYk/eh8q4Fq720gv/xCQaXjrQgsa0FGx+U0uebpKIEf5BfzASRTghzlkXqRsCB64h/5aF6EyRpReI3VAU5j/HjFvNV8lnQT5ig7eDMS0Uej1u8bmXYM7GGmYyZxxpSNzK/CrDvQ3KJFq8q0iVbeXGEB54SXZdotB1swObdCRY6S/bc0KhgQ3IUKm6FgtvEEHDzVz6tg9cF1J9DMKVQslaYPVcQa85yG6zx4Gk8/cHiQNqipM3xYebxjRLXejlDhIJYrrFzhIdG4wx+uVOAAhkeFYPkgYi5Lwxav67Bqtd5lDQ8sEW/ouub+fMCPtEszo2rzXJXiOBQK4MnnuTOrBsBpjaaIkesgVIhIhYz6Pq2yLx0tTncZ3tbtyFyLFYuUPEpouJyjyNUKIJd37Oo5MzDmIGmAFJttDDoYii+091hvRDc2c33+1cfRevVWqxQz8jZlkEheSWfRQNuRuVcKN8WI7e8HHzyL5laykVLTxgRh1vQHxAfbpQG99xwAAAAAElFTkSuQmCC
+                             width="20">
+                        Все туры
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <img alt="" class="ml-1 "
+                             src=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAYAAAArK+5dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAMSSURBVHgBlVbLbtNAFD0zduI2aYKqtqjiIYrYIPEBrBDqf/AHfAEfwZY9K9awQYgFjyUrxIYNEiwQlKoU5JQkjj1zuXdmHDuJo7ojObbncc59HkehYXx59vi6smYDoxRZxhcSns3cWhL2JEntwOAatB7nB/v3v6vDw6KOFS+DP330cOftqxevY9CVwhKUUtAKIPLrPIVII8yRn9cfYaH/Fpc+3eW3nyUWL6kVAqQjZLkd5jCD3DABBFA5MCGTY5YU/COhsOxNrJCTMl30FqDEhhWCkSwwgOXDn3/8ZktVudlb7bzwxKVHd67u8AaNphE3zioPcGNngP5Gxz0r+VWV7/5GmM6M80YrtCMY8HUGjxVHEbo6mgMv4fsQRdYR2Gp2Yaz6NYSLtQ2LtHSw/kbK01IzdrMHMiI+mJM766wLOCFUgYQWPdJQ7QmWTaaAumB9LQ+SH1oTorgZs6oSkj4IHtRH6YnzyuXgAh4Q1QD5xQKV+YymyNsr+wwvWq5ValtFSH1tS6LFskjXba3MLwlkeVoY52W3FUGwtsvduZX0uVS1A1EhFgJK1hcl33iqwL0HW9xnHbx7Mz6fwHUyXyIT305O5zF2vEQ+RMEICZRhd7ff/0En6WB8cnA+Qd2NaZ6zzsTzpAiwpaqc5HnGYnTz9h6SS338OkU7Akmq4p99PrTFlql6wdeeJVeTWY6Xz4/RZUkperdWsBoVal6WIdEI9rvEz9tNOSFUWuNfqnF8xBaNW3ogI2J1vDxInB45w5VvJ09GQVWBnok5TIYryaLXa0vABhZcIh++HiESS2tS6VJAvu5L9w92h9jkUCYNDPEafBea7c0EvSReWauLwjQ3iDlMmj1tGo1yPWF06dDBZheDkOR6u1GNZTIrsEYlmglErin1p/eGffQ6IQdakuqD4uRcYmUNMo5/Os4uQIDwHWCQoihwxrnQZWchyEjYV8q25OhCairWSh/khj+Htvzww3Wt1ymEPwAVcbQmUHHYP6efJhuTUWaf5Fm2K75EoVR0uBdF9S5aZILHhijrdNOzZYL/Ua8+fK6zHNMAAAAASUVORK5CYII=
+                             width="19">
+                        Пользователи
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+
+        <span class="navbar-text">
+          <a href="/">Выход</a>
+        </span>
+
+    </nav>
+
+
+    <h2 class="h2 my-4">Туры</h2>
+
+    <a class="mb-3 btn btn-outline-secondary">Создать тур</a>
+
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Название тура</th>
+            <th scope="col">Страна</th>
+            <th scope="col">Ночей</th>
+            <th scope="col">Стоимость</th>
+            <th scope="col"></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td><a class="" href="#">Epitome Resort</a></td>
+            <td class=""> Индия</td>
+            <td class=""> 4</td>
+            <td class=""> 36 500</td>
+            <td><a class="text-danger" href="#">Удалить</a></td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td><a class="" href="#">Brass Panorama Resort</a></td>
+            <td class="">Вьетнам</td>
+            <td class=""> 6</td>
+            <td class=""> 48 000</td>
+            <td><a class="text-danger" href="#">Удалить</a></td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td><a class="" href="#">Pleasant Pass Resort</a></td>
+            <td class=""> Индия</td>
+            <td class=""> 6</td>
+            <td class=""> 62 000</td>
+            <td><a class="text-danger" href="#">Удалить</a></td>
+        </tr>
+        <tr>
+            <th scope="row">4</th>
+            <td><a class="" href="#">Sunset Hill Resort</a></td>
+            <td class="">Доминикана</td>
+            <td class=""> 9</td>
+            <td class=""> 32 000</td>
+            <td><a class="text-danger" href="#">Удалить</a></td>
+        </tr>
+        <tr>
+            <th scope="row">5</th>
+            <td><a class="" href="#">Double Monarch Hotel</a></td>
+            <td class="">Бали</td>
+            <td class=""> 4</td>
+            <td class=""> 29 000</td>
+            <td><a class="text-danger" href="#">Удалить</a></td>
+        </tr>
+        <tr>
+            <th scope="row">6</th>
+            <td><a class="" href="#">Adi Dharma Cottages</a></td>
+            <td class="">Таиланд</td>
+            <td class=""> 5</td>
+            <td class=""> 49 000</td>
+            <td><a class="text-danger" href="#">Удалить</a></td>
+        </tr>
+        <tr>
+            <th scope="row">7</th>
+            <td><a class="" href="#">White Vista Resort</a></td>
+            <td class=""> Филлипины</td>
+            <td class=""> 5</td>
+            <td class=""> 34 500</td>
+            <td><a class="text-danger" href="#">Удалить</a></td>
+        </tr>
+        <tr>
+            <th scope="row">8</th>
+            <td><a class="" href="#">Rubby VSalley Hotel</a></td>
+            <td class="">Вьетнам</td>
+            <td class=""> 9</td>
+            <td class=""> 55 200</td>
+            <td><a class="text-danger" href="#">Удалить</a></td>
+        </tr>
+        </tbody>
+    </table>
+
+    <div class="mb-5 btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+        <div class="btn-group mr-2" role="group" aria-label="First group">
+            <a class="btn btn-primary" role="button">1</a>
+            <a class="btn btn-outline-secondary" href="#" role="button">2</a>
+            <a class="btn btn-outline-secondary" href="#" role="button">3</a>
+            <a class="btn btn-outline-secondary" href="#" role="button">4</a>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-light bg-light">
+        <ul class="navbar-nav mr-auto">
+            <p class="h4 nav-link">Tinysteps</p>
+        </ul>
+        <a class="text-muted" href="#">Project author 2019</a>
+    </nav>
+
+</div>
+</body>
