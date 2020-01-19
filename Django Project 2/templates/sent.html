@@ -3,51 +3,49 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>TINYSTEPS</title>
+  <title>Отклик отправлен | Джуманджи</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
   <header class="container mt-3">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">TINYSTEPS</a>
+      <a class="navbar-brand mr-4 font-weight-bold" href="#">Джуманджи</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Все репетиторы</a>
+      <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+        <ul class="navbar-nav col-10">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Вакансии</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Заявка на подбор</a>
+            <a class="nav-link" href="#">Компании</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">О проекте</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav col-2 justify-content-end">
+          <li class="nav-item active">
+            <a href="#" class="nav-link font-weight-bold">Вход</a>
           </li>
         </ul>
       </div>
-      <span class="navbar-text d-sm-none d-lg-block">
-        ☺️
-      </span>
     </nav>
   </header>
-  <main class="container mt-3">
+
+  <main class="container mt-3 pb-5">
     <div class="row mt-5">
-      <div class="col-10 col-md-6 offset-1 offset-md-3 mb-3">
-        <form action="/echo" class="card mb-3">
+      <div class="col-10 col-md-6 offset-1 offset-md-3 mt-5">
+        <div class="card mb-3">
           <div class="card-body text-center pt-5">
-            <img src="../static/pict 1.png" class="mb-3" width="95" alt="">
-            <h2 class="h5 card-title mt-2 mb-2">Morris Simmmons</h2>
-            <p class="my-1">Запись на пробный урок</p>
-            <p class="my-1">Вторник, 12:00</p>
+            <img src="../static/check.png" width="65" alt="">
+            <h2 class="h5 card-title mt-4 mb-2">Отклик отправлен</h2>
+            <p><a href="#">Вернуться к вакансии</a></p>
           </div>
-          <hr />
-          <div class="card-body mx-3">
-            <label class="mb-1 mt-2" for="clientName">Вас зовут</label>
-            <input class="form-control" type="text" id="clientName" placeholder="">
-            <label class="mb-1 mt-2" for="clientPhone">Ваш телефон</label>
-            <input class="form-control" type="tel"  id="clientPhone" placeholder="">
-            <input type="submit" class="btn btn-primary btn-block mt-4" value="Записаться на пробный урок">
-          </div>
-        </form>
+        </div>
       </div>
     </div>
   </main>

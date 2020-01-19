@@ -1,118 +1,113 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Stepik Travel</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <title>TINYSTEPS</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
+
 <body>
-
-<div class="container mt-3">
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <header class="container mt-3">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#">TINYSTEPS</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-
           <li class="nav-item active">
             <a class="nav-link" href="#">Все репетиторы</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Заявка на подбор</a>
           </li>
-
         </ul>
       </div>
-
-      <span class="navbar-text">
-          ☺️
+      <span class="navbar-text d-sm-none d-lg-block">
+        ☺️
       </span>
-
-
     </nav>
-
-
-     <div class="row mt-5">
-        <div class="col-6 offset-3">
-            <form action="" class="card mb-3" >
-
-
-                  <div class="card-body text-center pt-5">
-                    <h3 class="card-title mt-4 mb-2">Подбор преподавателя</h3>
-                    <p class="px-5">Напишите, чего вам нужно  и мы подберем отличных ребят</p>
-                  </div>
-
-                   <hr/>
-
-                   <div class="card-body mx-3">
-
-                       <div class="row">
-                           <div class="col">
-
-                               <p>Какая цель занятий?</p>
-
-                               <div class="form-check ">
-                                <input type="radio" class="form-check-input" name="goal" value="travel"> Для путешествий
-                               </div>
-                               <div class="form-check ">
-                                <input type="radio" class="form-check-input" name="goal" value="learn"> Для школы
-                               </div>
-                               <div class="form-check ">
-                                <input type="radio" class="form-check-input" name="goal" value="work"> Для работы
-                               </div>
-                               <div class="form-check ">
-                                <input type="radio" class="form-check-input"name="goal" value="move"> Для переезда
-                               </div>
-
-                           </div>
-
-                           <div class="col">
-
-                               <p>Сколько времени есть?</p>
-
-                               <div class="form-check ">
-                                <input type="radio" class="form-check-input" name="time" value="1-2"> 1-2 часа в неделю
-                               </div>
-                               <div class="form-check ">
-                                <input type="radio"class="form-check-input" name="time" value="3-5"> 3-5 часов в неделю
-                               </div>
-                               <div class="form-check ">
-                                <input type="radio" class="form-check-input"name="time" value="5-7"> 5-7 часов в неделю
-                               </div>
-                               <div class="form-check ">
-                                <input type="radio" class="form-check-input"name="time" value="7-10"> 7-10 часов в неделю
-                               </div>
-
-
-                           </div>
-                       </div>
-                  </div>
-
-                   <hr>
-
-                   <div class="card-body mx-3">
-
-                       <p class="mb-1 mt-2">Вас зовут</p>
-                       <input class="form-control" type="text" placeholder="">
-
-                       <p class="mb-1 mt-2">Ваш телефон</p>
-                       <input class="form-control" type="text" placeholder="">
-
-                       <input type="submit" class="btn btn-primary mt-4" value="Найдите мне преподавателя">
-
-                   </div>
-
-                </form>
-
+  </header>
+  <main class="container mt-5">
+    <div class="col-12 col-sm-10 col-lg-6 offset-lg-3 offset-sm-1">
+      <form action="/echo" class="card mb-5">
+        <div class="card-body text-center pt-5">
+          <h1 class="h3 card-title mt-4 mb-2">Подбор преподавателя</h1>
+          <p class="px-5">Напишите, чего вам нужно и&nbsp;мы&nbsp;подберем отличных&nbsp;ребят</p>
         </div>
-     </div>
-
-
-</div>
-
+        <hr>
+        <div class="card-body mx-3">
+          <div class="row">
+            <div class="col">
+              <p>Какая цель занятий?</p>
+              <div class="form-check ">
+                <input type="radio" class="form-check-input" name="goal" value="travel" id="goal1" checked>
+                <label class="form-check-label" for="goal1">
+                  Для путешествий
+                </label> 
+              </div>
+              <div class="form-check ">
+                <input type="radio" class="form-check-input" name="goal" value="learn" id="goal2">
+                <label class="form-check-label" for="goal2">
+                  Для школы
+                </label>
+              </div>
+              <div class="form-check ">
+                <input type="radio" class="form-check-input" name="goal" value="work" id="goal3">
+                <label class="form-check-label" for="goal2">
+                  Для работы
+                </label>
+              </div>
+              <div class="form-check ">
+                <input type="radio" class="form-check-input" name="goal" value="move" id="goal4">
+                <label class="form-check-label" for="goal2">
+                  Для переезда
+                </label>
+              </div>
+            </div>
+            <div class="col">
+              <p>Сколько времени есть?</p>
+              <div class="form-check">
+                <input type="radio" class="form-check-input" name="time" value="1-2" id="time1">
+                <label class="form-check-label" for="time1">
+                  1-2 часа в&nbsp;неделю
+                </label> 
+              </div>
+              <div class="form-check">
+                <input type="radio" class="form-check-input" name="time" value="3-5" id="time2">
+                <label class="form-check-label" for="time2">
+                  3-5 часов в&nbsp;неделю
+                </label>
+              </div>
+              <div class="form-check">
+                <input type="radio" class="form-check-input" name="time" value="5-7" id="time3" checked>
+                <label class="form-check-label" for="time3">
+                  5-7 часов в&nbsp;неделю
+                </label> 
+              </div>
+              <div class="form-check">
+                <input type="radio" class="form-check-input" name="time" value="7-10" id="time4">
+                <label class="form-check-label" for="time4">
+                  7-10 часов в&nbsp;неделю
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="card-body mx-3">
+          <label class="mb-1 mt-2">Вас зовут</label>
+          <input class="form-control" type="text" placeholder="">
+          <label class="mb-1 mt-2">Ваш телефон</label>
+          <input class="form-control" type="text" placeholder="">
+          <input type="submit" class="btn btn-primary mt-4 mb-2" value="Найдите мне преподавателя">
+        </div>
+      </form>
+    </div>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

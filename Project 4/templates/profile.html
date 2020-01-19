@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Profile | Stepik Delivery</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+  <header class="container mt-3">
+    <nav class="py-1 navbar navbar-dark bg-dark">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <p class=" h5 my-2 text-white bg-dark">Stepik Delivery</p>
+      </ul>
+      <p class="my-2 text-white bg-dark ">Корзина (2 блюда 455 руб.)</p>
+      <img class="ml-2" src=data:image/png;base64,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 alt="" width="24" height="25">
+    </nav>
+  </header>
+  <main class="container">
+    <section class="row">
+      <div class="col-12 col-lg-8">
+        <h1 class="h3 my-5">Личный кабинет. Заказы</h1>
+        <div class="card">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-7 col-lg-9">
+                  <span class="h5 font-weight-bold">25 Февраля</span>
+                  <span class="h5">- 1240 P</span>
+                </div>
+                <div class="col-3 col-lg-2 ml-5 py-2 badge badge-primary text-wrap">Выполняется</div>
+              </div>
+            </li>
+            <div class="card-body">
+              <div class="row">
+                <p class="col-4 text-muted">Ролл "Хомский" </p>
+                <p class="col-2 text-muted"> 1</p>
+                <p class="col-6 text-muted"> 310 </p>
+                <p class="col-4 text-muted">Бургер 404 </p>
+                <p class="col-2 text-muted"> 1</p>
+                <p class="col-6 text-muted"> 420 </p>
+                <p class="col-4 text-muted">Пицца "Армин" </p>
+                <p class="col-2 text-muted"> 1</p>
+                <p class="col-6 text-muted"> 350 </p>
+              </div>
+            </div>
+          </ul>
+        </div>
+        <div class="mt-4 card">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-7 col-lg-9">
+                  <span class="h5 font-weight-bold">11 Февраля</span>
+                  <span class="h5">- 875 P</span>
+                </div>
+                <div class="col-3 col-lg-2 ml-5 py-2 badge badge-success text-wrap">Готово</div>
+              </div>
+            </li>
+            <div class="card-body">
+              <div class="row">
+                <p class="col-4 text-muted">Ролл "Хомский" </p>
+                <p class="col-2 text-muted"> 1</p>
+                <p class="col-6 text-muted"> 315 </p>
+                <p class="col-4 text-muted">Бургер 404 </p>
+                <p class="col-2 text-muted"> 1</p>
+                <p class="col-6 text-muted"> 250 </p>
+                <p class="col-4 text-muted">Пицца "Армин" </p>
+                <p class="col-2 text-muted"> 1</p>
+                <p class="col-6 text-muted"> 310 </p>
+              </div>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="container mt-3">
+    <nav class="mt-5 navbar navbar-light bg-light">
+      <ul class="navbar-nav mr-auto">
+        <p class="h4 nav-link">Stepik Delivery</p>
+      </ul>
+      <a class="text-muted" href="#">Project author 2020</a>
+    </nav>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <title>Authorisation | Touradmin</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+  <main class="container">
+    <div class="row">
+      <div class="col-8 col-lg-4 offset-2 offset-lg-4">
+        <form class="form-signin pt-5">
+          <div class="text-center m-6 b-1">
+            <img class="mb-4" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD4AAABSCAYAAAAM92dlAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAATLSURBVHgB7ZxdUhtHEMe7Z4QK2zzIDzhgqLI4geEEkU5gcgLLJ0CpspW8Yd5c2FURJwg+gblBxAksn4BNlQhfD9YDpCjh2U7PAikb493er7Gs3d8L+ujV7n97ZrZ7pgeEnKm192rTU/dWNcJjAqoD4DIC1gCodm1DAB4SeIDQ94F2aeT3D7vzHuQIQg5YsfeqMy0gesJnaEAy+nxHtsyF6eVxEzIVbgXfrc6s8Y+2P/doagi2+QZsZHkDMhP+sHOynrngLxkSYPefzdkNyIDUwufaB3Vd1e/45TK4wTMj00zrfQUpmO8crepq5T24E22xN/q9PTekILHwxd+O1xTguxybdhg1e+75zmEbEpKoqVvRRNCFMcAH/9eDzbnY1xJbuG1il54eH9A3zcGb+V6sY+IYXw1kf/HLOowXQx7wVuIMeBWIQTrROOTx4AP/3QFFQ47evOBTH2sGjI3mGvz2Z0hGTU/pP/lvU3qA2OMp+rXHp9k6G51uD7tLwzDDIOLj8Javah0S3OA4/V0kPGkTR6CN09G/3SjBt7HYOXrJAct6zMOGZ6OzJcn5RI8zVa08hViicYgKm4PNn14mEW2xx3KougJBixHDIfNd0SNOJJw91wI5nlGfVgavZnuQkv3XD/pGGdtvxTePx4o122Wi7CKFL7w4bkEMb7Onnx2+yi6ZsL/FA+AvMQ6p3aneaUUZCTyOT0GI7dNZePomgzezPc7Xt6T2itSTKJvQwa3e/li7qF58BBne/uaDJciJq2vZ45eiEJkHufth40uox88rn+TJB0Em6eK38Lr3OS0lsddnKtOh1x4qXCm/AUKMNj3ImeqoKo4jfKUaYd+HCwf1GGSn2c1yQPsW1utA2JPYIuKjsO9DhXOkJks5iefHnGHDXokZJG/qhHZWNBofYwUZaZHe5FCnpZqB+f9HSCWKzr4nmQj/ESmFF41SeNEorPBgzm32xWBZk/7quYfChIAIH809P2iAC3jVVWp62zUZNMOT14t9XHjOk/JK/QEFws7N8RS5jsxdJw3u36vl4FY0SuFFoxReNErhRaMUXjSKnZ25BXlu3LzlHMEL3pKp80qjzRfq4BCHwm0piNnYv71ioR2syiashEiCq6YerJnvh5Rp8Fr49tVauAcOcCOcFxQlS0xXa+HPwAEOhPu71ptSa7sWLl0fS0P+wkltQ2zoLeRM7sJRGw/ik/siZO7CjZ7egzEk/6Z+MVqJeQQYwtwrovNv6glq2TWSuOAoKQ6Ey+rOrrFVlCk28Ihx8Ry39anieXs9pZ1Eb24CGITWQuckUnxgw7bgAIfZGUXuISGBTVY4FO7/HWWhgkTGDc6EE0UX4hL4soqmDHAmHCVZF02gx0UlYehH22SEwz5+uQclFIdlY86Ea+VLRDmrkHQm/PT8PFKU0WbyPC7Zm+KiEPgaZ3NuUkOaqDk3jr2D5CMCa4OOZlmdTS/bfWsPO0d9DHtWI64GPneAywUF9ibWw3fBuBFtKdfOikYpvGiUwosGT3pEz4xMHKj2lAK9A0XDh90gnFjoHNtlnjoUg2Dz72UfJ7D7s3+4vWPxsWUogdbLwc3uzOcPnFUjfB+saGoGWuHG/vG53w/q2reJgmrxW/EWiDHnAwLt3PwnHf8BihKgs+RzWDIAAAAASUVORK5CYII=" alt="" width="60" height="72">
+            <h1 class="h3 mb-3 font-weight-normal">Tour Admin</h1>
+            <p class="h5 font-weight-light">Войдите, чтобы управлять</p>
+          </div>
+          <div class="form-label-group">
+            <p class="text-muted">Электропочта</p>
+            <input type="email" id="inputEmail" class="form-control" required autofocus>
+            <label for="inputEmail"></label>
+          </div>
+          <div class="form-label-group">
+            <p class="text-muted">Пароль</p>
+            <input type="password" id="inputPassword" class="form-control" required>
+            <label for="inputPassword"></label>
+          </div>
+          <div class="checkbox mb-3"> </div>
+          <button class="btn btn-lg btn-primary btn-block" type="submit">Войти</button>
+        </form>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
