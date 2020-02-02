@@ -41,11 +41,20 @@
           </div>
           <hr />
           <div class="card-body mx-3">
+              <div class="row">
+                  <input class="form-control" type="hidden" name="clientWeekday" value="mon">
+                  <input class="form-control" type="hidden" name="clientTime" value="12:00">
+                  <input class="form-control" type="hidden" name="clientTeacher" value="10">
+              </div>
+
             <label class="mb-1 mt-2" for="clientName">Вас зовут</label>
-            <input class="form-control" type="text" id="clientName" placeholder="">
+            <input class="form-control" type="text" name="clientName" id="clientName">
+
             <label class="mb-1 mt-2" for="clientPhone">Ваш телефон</label>
-            <input class="form-control" type="tel"  id="clientPhone" placeholder="">
+            <input class="form-control" type="tel"  name="clientPhone" id="clientPhone">
+
             <input type="submit" class="btn btn-primary btn-block mt-4" value="Записаться на пробный урок">
+              
           </div>
         </form>
       </div>
