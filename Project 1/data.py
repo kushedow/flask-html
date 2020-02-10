@@ -1,30 +1,38 @@
-title = "Stepik Travel"
-subtitle = "Для тех, кого отвлекают дома"
-description = "Лучшие направления, где никто не будет вам мешать сидеть на берегу и изучать программирование, дизайн, разработку игр и управление продуктами"
-departures = {"msk":"Из Москвы","spb":"Из Петербурга","nsk":"Из Новосибирска","ekb":"Из Екатеринбурга","kazan":"Из Казани"}
+base = {
+    "title": "Stepik Travel",
+    "subtitle": "Для тех, кого отвлекают дома",
+    "description": "Лучшие направления, где никто не будет вам мешать сидеть на берегу и изучать программирование, дизайн, разработку игр и управление продуктами",
+    "departures": {
+        "msk": "из Москвы",
+        "spb": "из Петербурга",
+        "nsk": "из Новосибирска",
+        "ekb": "из Екатеринбурга",
+        "kazan": "из Казани",
+    },
+}
 
 tours = {
     1: {
         "title": "Marina Lake Hotel & Spa",
-        "description" : "Отель выглядит уютно. Он был построен из красного соснового дерева и украшен синими камнями.  Высокие округлые окна добавляют общий стиль дома и были добавлены в дом в довольно симметричном образце.",
-        "departure":"nsk",
+        "description": "Отель выглядит уютно. Он был построен из красного соснового дерева и украшен синими камнями.  Высокие округлые окна добавляют общий стиль дома и были добавлены в дом в довольно симметричном образце.",
+        "departure": "nsk",
         "picture": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
         "price": 62000,
         "stars": "4",
         "country": "Куба",
-		"nights":6,
-		"date": "2 марта",
+        "nights": 6,
+        "date": "2 марта",
     },
     2: {
         "title": "Baroque Hotel",
-        "description" : "Здание отеля имеет форму короткой буквы U. Два расширения связаны стеклянными нависающими панелями. Второй этаж такого же размера, как и первый, который был построен точно над полом под ним. Этот этаж имеет совершенно другой стиль, чем этаж ниже.",
+        "description": "Здание отеля имеет форму короткой буквы U. Два расширения связаны стеклянными нависающими панелями. Второй этаж такого же размера, как и первый, который был построен точно над полом под ним. Этот этаж имеет совершенно другой стиль, чем этаж ниже.",
         "departure": "ekb",
         "picture": "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
         "price": 85000,
         "stars": "5",
-        "country":"Вьетнам",
-		"nights":8,
-		"date": "12 января",
+        "country": "Вьетнам",
+        "nights": 8,
+        "date": "12 января",
     },
     3: {
         "title": "Voyager Resort",
@@ -33,10 +41,10 @@ tours = {
         "picture": "https://images.unsplash.com/photo-1569660072562-48a035e65c30?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
         "price": 63000,
         "stars": "3",
-        "country":"Пакистан",
-		"nights": 11,
-		"date": "7 февраля",
-        },
+        "country": "Пакистан",
+        "nights": 11,
+        "date": "7 февраля",
+    },
     4: {
         "title": "Orbit Hotel",
         "description": "Каждый домик оборудован средней кухней и одной небольшой ванной комнатой, в нем также есть уютная гостиная, две спальни, скромная столовая и большой подвал.  Небольшие треугольные окна добавляют к общему стилю дома и были добавлены в дом в основном симметричным способом.",
@@ -44,9 +52,9 @@ tours = {
         "picture": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
         "price": 62000,
         "stars": "4",
-        "country":"Индия",
-		"nights":9,
-		"date": "22 января",
+        "country": "Индия",
+        "nights": 9,
+        "date": "22 января",
     },
     5: {
         "title": "Atlantis Cabin Hotel",
@@ -55,9 +63,9 @@ tours = {
         "picture": "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
         "price": 68000,
         "stars": "4",
-        "country":"Доминикана",
-		"nights":8,
-		"date": "18 января",
+        "country": "Доминикана",
+        "nights": 8,
+        "date": "18 января",
     },
     6: {
         "title": "Light Renaissance Hotel",
@@ -67,8 +75,8 @@ tours = {
         "price": 53000,
         "stars": "3",
         "country": "Пакистан",
-		"nights":13,
-		"date": "15 февраля",
+        "nights": 13,
+        "date": "15 февраля",
     },
     7: {
         "title": "King's Majesty Hotel",
@@ -78,8 +86,8 @@ tours = {
         "price": 72000,
         "stars": "5",
         "country": "Мексика",
-		"nights": 9,
-		"date": "22 января",
+        "nights": 9,
+        "date": "22 января",
     },
     8: {
         "title": "Crown Hotel",
@@ -89,8 +97,8 @@ tours = {
         "price": 44000,
         "stars": "4",
         "country": "Тайланд",
-		"nights":7,
-		"date": "3 февраля",
+        "nights": 7,
+        "date": "3 февраля",
     },
     9: {
         "title": "Seascape Resort",
@@ -100,8 +108,8 @@ tours = {
         "price": 39000,
         "stars": "3",
         "country": "Индия",
-		"nights":10,
-		"date": "1 февраля",
+        "nights": 10,
+        "date": "1 февраля",
     },
     10: {
         "title": "Rose Sanctum Hotel",
@@ -111,8 +119,8 @@ tours = {
         "price": 52000,
         "stars": "4",
         "country": "Куба",
-		"nights":10,
-		"date": "30 января",
+        "nights": 10,
+        "date": "30 января",
     },
     11: {
         "title": "Viridian Obelisk Hotel & Spa",
@@ -122,8 +130,8 @@ tours = {
         "price": 68000,
         "stars": "5",
         "country": "Индия",
-		"nights":9,
-		"date": "1 марта",
+        "nights": 9,
+        "date": "1 марта",
     },
     12: {
         "title": "Saffron Tundra Hotel & Spa",
@@ -133,8 +141,8 @@ tours = {
         "price": 72000,
         "stars": "4",
         "country": "Мексика",
-		"nights":12,
-		"date": "17 февраля",
+        "nights": 12,
+        "date": "17 февраля",
     },
     13: {
         "title": "Traveller Resort",
@@ -144,8 +152,8 @@ tours = {
         "price": 49000,
         "stars": "3",
         "country": "Куба",
-		"nights":8,
-		"date": "26 января"
+        "nights": 8,
+        "date": "26 января"
     },
     14: {
         "title": "History Hotel & Spa",
@@ -155,8 +163,8 @@ tours = {
         "price": 91000,
         "stars": "5",
         "country": "Вьетнам",
-		"nights":9,
-		"date": "3 февраля",
+        "nights": 9,
+        "date": "3 февраля",
     },
     15: {
         "title": "Riverside Lagoon Hotel & Spa",
@@ -166,19 +174,18 @@ tours = {
         "price": 82000,
         "stars": "4",
         "country": "Доминикана",
-		"nights":8,
-		"date": "5 февраля",
+        "nights": 8,
+        "date": "5 февраля",
     },
     16: {
-         "title": "History Hotel & Spa",
-         "description": "Это высокое здание из старого кирпича. Крыша высокая, треугольная, многослойная, покрыта пшеничной соломой. В тесной квадратной спальне установлена деревянная и стеклянная мебель. Пол деревянный, а стены текстурированы и окрашены.Настенные и напольные светильники обеспечивают свет. Комната оформлена в цветах, напоминающих облачное небо, и в целом выглядит очень старомодно. Первое, что вы заметите, это тщеславие.",
-         "departure": "spb",
-         "picture": "https://images.unsplash.com/photo-1564056095795-4d63b6463dbf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-         "price": 74000,
-         "stars": "5",
-         "country": "Вьетнам",
-		"nights":12,
-		"date": "24 января",
-     }
-
+        "title": "History Hotel & Spa",
+        "description": "Это высокое здание из старого кирпича. Крыша высокая, треугольная, многослойная, покрыта пшеничной соломой. В тесной квадратной спальне установлена деревянная и стеклянная мебель. Пол деревянный, а стены текстурированы и окрашены.Настенные и напольные светильники обеспечивают свет. Комната оформлена в цветах, напоминающих облачное небо, и в целом выглядит очень старомодно. Первое, что вы заметите, это тщеславие.",
+        "departure": "spb",
+        "picture": "https://images.unsplash.com/photo-1564056095795-4d63b6463dbf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        "price": 74000,
+        "stars": "5",
+        "country": "Вьетнам",
+        "nights": 12,
+        "date": "24 января",
+    },
 }
