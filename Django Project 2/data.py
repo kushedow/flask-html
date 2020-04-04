@@ -32,7 +32,7 @@ companies = [
 
 """ Категории """
 
-categories = [
+specialties = [
 
     {"code": "frontend", "title": "Фронтенд"},
     {"code": "backend", "title": "Бэкенд"},
