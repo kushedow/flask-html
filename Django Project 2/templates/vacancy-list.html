@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Вакансии компании | Джуманджи</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <style>
+    body {
+      background-color: #F6F2E6;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="container mt-3">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand mr-4 font-weight-bold" href="#">Джуманджи</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+        <ul class="navbar-nav col-10">
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">Вакансии</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">Компании</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">О проекте</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav col-2 justify-content-end">
+          <li class="nav-item active">
+            <div class="btn-group">
+              <button type="button" class="btn dropdown-toggle font-weight-bold" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Иван Топорыжкин
+              </button>
+              <div class="dropdown-menu dropdown-menu-right mt-3">
+                <button class="dropdown-item py-2" type="button">Профиль</button>
+                <button class="dropdown-item py-2" type="button">Резюме</button>
+                <button class="dropdown-item py-2" type="button">Компания</button>
+                <button class="dropdown-item py-2" type="button">Выйти</button>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container mt-3 pb-5">
+    <div class="row mt-5">
+      <div class="col-12 col-lg-4">
+        <aside class="py-3 px-4 mb-5 card">
+          <h1 class="h4 pt-2 pb-2">Моя компания</h1>
+          <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <a class="nav-link" id="v-pills-home-tab" data-toggle="pill" href="#company-info" role="tab" aria-controls="company-info" aria-selected="true">1. Информация о&nbsp;компании</a>
+            <a class="nav-link active" id="v-pills-profile-tab" data-toggle="pill" href="#company-vacancy" role="tab" aria-controls="company-vacancy" aria-selected="false">2. Вакансии</a>
+          </div>
+        </aside>
+      </div>
+      <div class="col-12 col-lg-8">
+        <div class="card">
+          <div class="card-body px-4 pb-4 tab-content" id="v-pills-tabContent">
+            <!-- Tab -->
+            <section class="tab-pane fade" id="company-info" role="tabpanel" aria-labelledby="company-info-tab">
+              <h2 class="h4 pt-2 pb-3">Информация о&nbsp;компании</h2>
+              <p class="alert alert-info" role="alert">
+                Информация о компании обновлена
+              </p>
+              <form action="/echo" class="">
+                <div class="row">
+                  <div class="col-12 col-md-6">
+                    <div class="form-group pb-2">
+                      <label class="mb-2 text-dark" for="companyName">Название компании</label>
+                      <input class="form-control" type="text" value="Staffing Smarter" id="companyName">
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="form-group">
+                      <label class="mb-2 text-dark" for="companyLogo">Логотип</label>
+                      <div class="row align-items-center">
+                        <div class="col-6">
+                          <img src="https://place-hold.it/120x40" alt="" style="max-width: 120px;height: auto;">
+                        </div>
+                        <div class="col-6" style="position: relative;">
+                          <div class="input-group-prepend" style="position: absolute; top: 0;right: 15px;">
+                            <span class="btn btn-info px-4">Загрузить</span>
+                          </div>
+                          <div class="custom-file" style="">
+                            <input type="file" class="custom-file-input" id="inputGroupFile01">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12 col-md-6">
+                    <div class="form-group pb-2">
+                      <label class="mb-2 text-dark" for="companyTeam">Количество человек в компании</label>
+                      <input class="form-control" type="text" value="10-15" id="companyTeam">
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="form-group pb-2">
+                      <label class="mb-2 text-dark" for="companyLocation">География</label>
+                      <input class="form-control" type="text" value="Рязань" id="companyLocation">
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group pb-2">
+                  <label class="mb-2 text-dark" for="companyInfo">Информация о&nbsp;компании</label>
+                  <textarea class="form-control" rows="4" id="companyInfo" style="color:#000;">Для тех, кто желает работать в&nbsp;комфортном офисе,&nbsp;&mdash; у&nbsp;нас их&nbsp;целых три. Исторически так сложилось, что руководство и&nbsp;менеджерский состав располагается в&nbsp;Москве (обусловлено близостью заказчиков), центр разработки&nbsp;&mdash; в&nbsp;Ульяновске, в&nbsp;т.&nbsp;ч. школа молодых разработчиков и&nbsp;QA-центр&nbsp;&mdash; в&nbsp;Казани.</textarea>
+                </div>
+                <div class="form-group">
+                  <input type="submit" class="btn btn-info" value="Сохранить">
+                </div>
+              </form>
+
+            </section>
+            <!-- END Tab -->
+            <!-- Tab -->
+            <section class="tab-pane fade show active" id="company-vacancy" role="tabpanel" aria-labelledby="company-vacancy-tab">
+              <h2 class="h4 pt-2 pb-3">Вакансии</h2>
+              <!-- vacancy state 1 -->
+              <div class="card mt-3">
+                <div class="card-body px-4">
+                  <div class="row align-items-center">
+                    <div class="col-6 col-lg-8">
+                      <p class="mb-1">Backend-разработчик</p>
+                      <p class="mb-1">
+                        <span class="mr-4">120  000</span><a href="#">3 отклика</a>
+                      </p>
+                    </div>
+                    <div class="col-6 col-lg-4 text-right">
+                      <button type="button" class="btn btn-outline-info">Изменить</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- END vacancy state 1 -->
+              <!-- vacancy state 2 -->
+              <div class="card mt-3">
+                <div class="card-body px-4">
+                  <div class="row align-items-center">
+                    <div class="col-6 col-lg-8">
+                      <p class="mb-1">Backend Middle/Senior</p>
+                      <p class="mb-1">
+                        <span class="mr-4">90  000</span><span class="text-muted">Нет откликов</span>
+                      </p>
+                    </div>
+                    <div class="col-6 col-lg-4 text-right">
+                      <button type="button" class="btn btn-outline-info">Изменить</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- END vacancy state 2 -->
+            </section>
+            <!-- END Tab -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
