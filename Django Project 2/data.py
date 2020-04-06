@@ -23,7 +23,7 @@ companies = [
     {"title": "rebelrage"},
     {"title": "staffingsmarter"},
     {"title": "evilthreat h"},
-    {"title": "wirey "},
+    {"title": "hirey "},
     {"title": "swiftattack"},
     {"title": "troller"},
     {"title": "primalassault"}
@@ -41,8 +41,6 @@ specialties = [
     {"code": "design", "title": "Дизайн"},
     {"code": "products", "title": "Продукты"},
     {"code": "management", "title": "Менеджмент"},
-    {"code": "testing", "title": "Тестирование"},
-    {"code": "ios", "title": "Разработка под iOS"},
-    {"code": "android", "title": "Разработка под Android"}
+    {"code": "testing", "title": "Тестирование"}
 
 ]

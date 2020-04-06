@@ -126,9 +126,23 @@
               <h2 class="h4 pt-2 pb-3">Backend Middle/Senior</h2>
               <p class="alert alert-info" role="alert">Вакансия обновлена</p>
               <form action="/echo">
-                <div class="form-group pb-2">
-                  <label class="mb-2 text-dark" for="vacancyTitle">Название вакансии</label>
-                  <input class="form-control" type="text" value="Staffing Smarter" id="vacancyTitle">
+                <div class="row">
+                  <div class="col-12 col-md-6">
+                    <div class="form-group pb-2">
+                      <label class="mb-2 text-dark" for="vacancyTitle">Название вакансии</label>
+                      <input class="form-control" type="text" value="Staffing Smarter" id="vacancyTitle">
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="form-group pb-2">
+                      <label class="mb-2 text-dark" for="userSpecialization">Специализация</label>
+                      <select class="custom-select mr-sm-2" id="userSpecialization">
+                        <option selected>Backend разработка</option>
+                        <option value="1">Frontend разработка</option>
+                        <option value="2">Project manager</option>
+                      </select>
+                    </div>
+                  </div>
                 </div>
                 <div class="row">
                   <div class="col-12 col-md-6">
@@ -139,7 +153,7 @@
                   </div>
                   <div class="col-12 col-md-6">
                     <div class="form-group pb-2">
-                      <label class="mb-2 text-muted" for="vacancySalaryMax">Зарплата до</label>
+                      <label class="mb-2" for="vacancySalaryMax">Зарплата до</label>
                       <input class="form-control" type="text" value="90 000" id="vacancySalaryMax">
                     </div>
                   </div>
