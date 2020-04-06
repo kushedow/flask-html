@@ -39,10 +39,10 @@
                 Иван Топорыжкин
               </button>
               <div class="dropdown-menu dropdown-menu-right mt-3">
-                <button class="dropdown-item py-2" type="button">Профиль</button>
-                <button class="dropdown-item py-2" type="button">Резюме</button>
-                <button class="dropdown-item py-2" type="button">Компания</button>
-                <button class="dropdown-item py-2" type="button">Выйти</button>
+                <a href="#" class="dropdown-item py-2">Профиль</a>
+                <a href="#" class="dropdown-item py-2">Резюме</a>
+                <a href="#" class="dropdown-item py-2">Компания</a>
+                <a href="#" class="dropdown-item py-2">Выйти</a>
               </div>
             </div>
           </li>
@@ -54,19 +54,19 @@
   <main class="container mt-3 pb-5">
     <div class="row mt-5">
       <div class="col-12 col-lg-4">
-        <aside class="py-3 px-4 mb-5 card">
+        <aside class="pt-3 pb-4 px-4 mb-5 card">
           <h1 class="h4 pt-2 pb-2">Моя компания</h1>
-          <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-            <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#company-info" role="tab" aria-controls="company-info" aria-selected="true">1. Информация о&nbsp;компании</a>
-            <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#company-vacancy" role="tab" aria-controls="company-vacancy" aria-selected="false">2. Вакансии</a>
+          <div class="nav flex-column nav-pills">
+            <a class="nav-link active" href="#">1. Информация о&nbsp;компании</a>
+            <a class="nav-link" href="#">2. Вакансии</a>
           </div>
         </aside>
       </div>
       <div class="col-12 col-lg-8">
         <div class="card">
-          <div class="card-body px-4 pb-4 tab-content" id="v-pills-tabContent">
+          <div class="card-body px-4 pb-4">
             <!-- Tab -->
-            <section class="tab-pane fade show active" id="company-info" role="tabpanel" aria-labelledby="company-info-tab">
+            <section class="tab-pane fade show active">
               <h2 class="h4 pt-2 pb-3">Информация о&nbsp;компании</h2>
               <p class="alert alert-info" role="alert">
                 Информация о компании обновлена
@@ -120,13 +120,6 @@
                   <input type="submit" class="btn btn-info" value="Сохранить">
                 </div>
               </form>
-            </section>
-            <!-- END Tab -->
-            <!-- Tab -->
-            <section class="tab-pane fade" id="company-vacancy" role="tabpanel" aria-labelledby="company-vacancy-tab">
-              <h2 class="h4 pt-2 pb-3">Вакансии</h2>
-              <p class="alert alert-info" role="alert">У вас пока нет вакансий, но вы можете создать первую!</p>
-              <button type="button" class="btn btn-info mb-2">Добавить вакансию</button>
             </section>
             <!-- END Tab -->
           </div>
