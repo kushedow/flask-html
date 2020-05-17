@@ -1,0 +1,15 @@
+{
+  "courses": {
+    "1": {
+      "name": "python"
+    },
+    "2": {
+      "name": "java"
+    },
+    "3": {
+      "name": "css"
+    }
+  },
+  "description": "Some long text ....",
+  "subtitle": "best site ever",
+  "title": "Stepik Demo"}
