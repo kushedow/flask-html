@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Cookooha!</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .form-check-label {
+      line-height: 1.8;
+      padding-left: .35em;
+    }
+
+    .form-check {
+      margin-bottom: .35em;
+    }
+  </style>
+</head>
+
+<body class="d-flex flex-column h-100">
+  <header class="container mt-3">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#"><b>Cookooha!</b></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end text-right" id="navbarNav">
+        <p class="navbar-text text-body col-4 m-0">
+          dasha, в избранном <a href="#" style="text-decoration: underline;">5 рецептов!</a>
+        </p>
+        <ul class="navbar-nav col-1">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Выйти</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="container mt-3 mb-5">
+
+    <div class="mx-auto pt-5 pb-3" style="width: 90%;">
+      <section class="card pt-4 px-2">
+        <div class="row text-center align-items-center pb-4">
+          <div class="col-3">
+            <img src="../static/city-1.png" alt="Кисловодск" width="135">
+          </div>
+          <div class="col-6">
+            <h1 class="h2 pt-3 mb-2 font-weight-bold">Что в холодильнике?</h1>
+            <p class="font-weight-bold">Выберите продукты, которые есть  и мы подберем классные рецепты</p>
+          </div>
+          <div class="col-3">
+            <img src="../static/city-2.png" alt="Грозный" width="159">
+          </div>
+        </div>
+        <!-- Форма -->
+        <form action="/" class="px-3 pt-2">
+          <div class="row mx-auto pt-5 mb-5 border-top">
+            <div class="col-4">
+              <p><b>Овощи</b></p>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="item1">
+                <label class="form-check-label" for="item1">
+                  Картофель
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="item2">
+                <label class="form-check-label" for="item2">
+                  Морковь
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="item3">
+                <label class="form-check-label" for="item3">
+                  Лук репчатый
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="item4">
+                <label class="form-check-label" for="item4">
+                  Баклажан
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="item5">
+                <label class="form-check-label" for="item5">
+                  Капуста
+                </label>
+              </div>
+            </div>
+            <div class="col-4">
+              <p><b>Крупы</b></p>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="item6" checked="">
+                <label class="form-check-label" for="item6">
+                  Булгур
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="item7">
+                <label class="form-check-label" for="item7">
+                  Киноа
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="item8">
+                <label class="form-check-label" for="item8">
+                  Кус кус
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="item9">
+                <label class="form-check-label" for="item9">
+                  Нут
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="item10">
+                <label class="form-check-label" for="item10">
+                  Овсяные хлопья
+                </label>
+              </div>
+            </div>
+            <div class="col-4">
+              <p><b>Мясо</b></p>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="item11">
+                <label class="form-check-label" for="item11">
+                  Свинина
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="item12">
+                <label class="form-check-label" for="item12">
+                  Говядина
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="item13">
+                <label class="form-check-label" for="item13">
+                  Баранина
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="item14">
+                <label class="form-check-label" for="item14">
+                  Курица
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="item15">
+                <label class="form-check-label" for="item15">
+                  Индейка
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="row mx-auto mb-5">
+            <div class="col-4">
+              <p><b>Молочные продукты</b></p>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="item16">
+                <label class="form-check-label" for="item16">
+                  Сыр
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="item17">
+                <label class="form-check-label" for="item17">
+                  Сгущеное молоко
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="item18">
+                <label class="form-check-label" for="item18">
+                  Масло сливочное
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="item19">
+                <label class="form-check-label" for="item19">
+                  Молоко
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="item20">
+                <label class="form-check-label" for="item20">
+                  Творог
+                </label>
+              </div>
+            </div>
+            <div class="col-4">
+              <p><b>Макаронные изделия</b></p>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="item21" >
+                <label class="form-check-label" for="item21">
+                  Вермишель
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="item22">
+                <label class="form-check-label" for="item22">
+                  Рожки
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="item23">
+                <label class="form-check-label" for="item23">
+                  Пенне
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="item24">
+                <label class="form-check-label" for="item24">
+                  Фунчоза
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="item25">
+                <label class="form-check-label" for="item25">
+                  Яичная лапша
+                </label>
+              </div>
+            </div>
+            <div class="col-4">
+              <p><b>Морепродукты</b></p>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="item26">
+                <label class="form-check-label" for="item26">
+                  Морская капуста
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="item27">
+                <label class="form-check-label" for="item27">
+                  Щука
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="item28">
+                <label class="form-check-label" for="item28">
+                  Лосось
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="item29">
+                <label class="form-check-label" for="item29">
+                  Мидии
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="item30">
+                <label class="form-check-label" for="item30">
+                  Креветки
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="row mx-auto mb-5">
+            <div class="col-4">
+              <p><b>Фрукты, ягоды, орехи</b></p>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="item31">
+                <label class="form-check-label" for="item31">
+                  Грецкий орех
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="item32">
+                <label class="form-check-label" for="item32">
+                  Изюм
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="item33">
+                <label class="form-check-label" for="item33">
+                  Кешью
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="item34">
+                <label class="form-check-label" for="item34">
+                  Миндаль
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="item35">
+                <label class="form-check-label" for="item35">
+                  Инжир
+                </label>
+              </div>
+            </div>
+          </div>
+          <!-- Кнопка -->
+          <div class="form-group text-center px-0 pt-4 pb-3 border-top">
+            <input type="submit" value="Поехали, кукуха!" class="btn btn-warning rounded-pill mt-2 px-5 font-weight-bold">
+          </div>
+          <!-- END Кнопка -->
+        </form>
+        <!-- END Форма -->
+      </section>
+    </div>
+
+  </main>
+  <footer class="footer container">
+    <div class="bg-light mt-auto py-3 px-2 text-center">
+      <span class="text-body">Cookooha 2020</span>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
