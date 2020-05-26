@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Cookooha!</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .row .btn.rounded-pill {
+      padding: .25rem .75rem;
+    }
+  </style>
+</head>
+
+<body class="d-flex flex-column h-100">
+  <header class="container mt-3">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#"><b>Cookooha!</b></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end text-right" id="navbarNav">
+        <p class="navbar-text text-body col-4 m-0">
+          dasha, в избранном <a href="#" style="text-decoration: underline;">5 рецептов!</a>
+        </p>
+        <ul class="navbar-nav col-1">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Выйти</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="container mt-3 mb-5">
+
+    <section class="mx-auto pt-5 pb-3" style="width: 60%;"> 
+      <div class="card pr-4">
+        <form action="/">
+          <div class="row">
+            <div class="col-6">
+              <img src="../static/sing-up.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-6 py-4 px-2">
+              <div class="alert alert-warning" role="alert">
+                Почта или пароль неверный
+              </div>
+              <p class="h5 my-3"><b>Регистрация</b></p>
+              <div class="form-group">
+                <label for="email" class="text-muted">Электропочта</label>
+                <input type="email" class="form-control" id="email">
+              </div>
+              <div class="form-group">
+                <label for="pass" class="text-muted">Пароль</label>
+                <input type="password" class="form-control" id="pass">
+              </div>
+              <div class="form-group pt-2">
+                <input type="submit" class="btn btn-dark" value="Отправить">
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+  </main>
+  <footer class="footer container">
+    <div class="bg-light mt-auto py-3 px-2 text-center">
+      <span class="text-body">Cookooha 2020</span>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

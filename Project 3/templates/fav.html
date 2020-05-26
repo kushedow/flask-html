@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Cookooha!</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .close {
+      opacity: 1;
+      font-weight: 400;
+      font-size: 2.1rem;
+    }
+
+    .close > span {
+      color: #FC4C1E;
+    }
+  </style>
+</head>
+
+<body class="d-flex flex-column h-100">
+  <header class="container mt-3">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#"><b>Cookooha!</b></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end text-right" id="navbarNav">
+        <p class="navbar-text text-body col-4 m-0">
+          dasha, в избранном <a href="#" style="text-decoration: underline;">5 рецептов!</a>
+        </p>
+        <ul class="navbar-nav col-1">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Выйти</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="container mt-3 mb-5">
+
+    <div class="mx-auto pt-5 pb-3" style="width: 90%;">
+      <section class="card pt-5">
+        <div class="text-center pb-5">
+          <img src="../static/icon-skull.png" alt="" width="171">
+          <h1 class="h2 font-weight-bold">Избранное</h1>
+        </div>
+        <div class="alert alert-warning mx-4 text-center" role="alert">
+          Блюдо удалено из избранного.
+        </div>
+        <div class="alert alert-warning mx-4 text-center" role="alert">
+          Блюдо добавлено из избранного.
+        </div>
+        <!-- Рецепты -->
+        <div>
+          <!-- Рецепт -->
+          <div class="recipe border-top">
+            <form action="/" class="recipe-wrap py-4 px-5">
+              <button type="button" class="close" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <div class="row">
+                <div class="col-2">
+                  <img src="../static/recipe-1.jpg" class="img-fluid" alt="" width="152">
+                </div>
+                <div class="col-8">
+                  <p class="h5"><b>Паническая сосиска</b></p>
+                  <p>Куриный суп с вермишелью - первое блюдо, которое с удовольствием съедят и дети, и взрослые. Рецепт супа из куриного филе очень прост.</p>
+                  <div class="row align-items-baseline">
+                    <div class="col">
+                      <a href="profile.html" class="btn btn-primary mr-3 mb-2">Открыть рецепт</a>
+                    </div>
+                    <div class="col">
+                      <span class="text-muted">6 порций по 240 ККал</span>
+                    </div>
+                    <div class="col">
+                      <span class="text-muted">45 мин (ваши 20 мин)</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <!-- END Рецепт -->
+          <!-- Рецепт -->
+          <div class="recipe border-top">
+            <form class="recipe-wrap py-4 px-5">
+              <button type="button" class="close" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <div class="row">
+                <div class="col-2">
+                  <img src="../static/recipe-1.jpg" class="img-fluid" alt="" width="152">
+                </div>
+                <div class="col-8">
+                  <p class="h5"><b>Паста "Карбонара"</b></p>
+                  <p>Куриный суп с вермишелью - первое блюдо, которое с удовольствием съедят и дети, и взрослые. Рецепт супа из куриного филе очень прост.</p>
+                  <div class="row align-items-baseline">
+                    <div class="col">
+                      <a href="profile.html" class="btn btn-primary mr-3 mb-2">Открыть рецепт</a>
+                    </div>
+                    <div class="col">
+                      <span class="text-muted">6 порций по 240 ККал</span>
+                    </div>
+                    <div class="col">
+                      <span class="text-muted">45 мин (ваши 20 мин)</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <!-- END Рецепт -->
+          <!-- Рецепт -->
+          <div class="recipe border-top">
+            <form class="recipe-wrap py-4 px-5">
+              <button type="button" class="close" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <div class="row">
+                <div class="col-2">
+                  <img src="../static/recipe-1.jpg" class="img-fluid" alt="" width="152">
+                </div>
+                <div class="col-8">
+                  <p class="h5"><b>Жаркое с картофелем, по-домашнему</b></p>
+                  <p>Куриный суп с вермишелью - первое блюдо, которое с удовольствием съедят и дети, и взрослые. Рецепт супа из куриного филе очень прост.</p>
+                  <div class="row align-items-baseline">
+                    <div class="col">
+                      <a href="profile.html" class="btn btn-primary mr-3 mb-2">Открыть рецепт</a>
+                    </div>
+                    <div class="col">
+                      <span class="text-muted">6 порций по 240 ККал</span>
+                    </div>
+                    <div class="col">
+                      <span class="text-muted">45 мин (ваши 20 мин)</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <!-- END Рецепт -->
+          <!-- Рецепт -->
+          <div class="recipe border-top">
+            <form class="recipe-wrap py-4 px-5">
+              <button type="button" class="close" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <div class="row">
+                <div class="col-2">
+                  <img src="../static/recipe-1.jpg" class="img-fluid" alt="" width="152">
+                </div>
+                <div class="col-8">
+                  <p class="h5"><b>Рисовые биточки простые</b></p>
+                  <p>Куриный суп с вермишелью - первое блюдо, которое с удовольствием съедят и дети, и взрослые. Рецепт супа из куриного филе очень прост.</p>
+                  <div class="row align-items-baseline">
+                    <div class="col">
+                      <a href="profile.html" class="btn btn-primary mr-3 mb-2">Открыть рецепт</a>
+                    </div>
+                    <div class="col">
+                      <span class="text-muted">6 порций по 240 ККал</span>
+                    </div>
+                    <div class="col">
+                      <span class="text-muted">45 мин (ваши 20 мин)</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <!-- END Рецепт -->
+        </div>
+        <!-- END Рецепты -->
+      </section>
+    </div>
+
+  </main>
+  <footer class="footer container">
+    <div class="bg-light mt-auto py-3 px-2 text-center">
+      <span class="text-body">Cookooha 2020</span>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
