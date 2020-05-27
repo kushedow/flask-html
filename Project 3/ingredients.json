@@ -18,6 +18,21 @@
     "id":103,
     "title": "Чеснок",
     "ingredient_group": 1
+  }, 
+  {
+    "id":104,
+    "title": "Лук-шалот",
+    "ingredient_group": 1
+  },
+  {
+    "id":105,
+    "title": "Петрушка",
+    "ingredient_group": 1
+  },
+  {
+    "id":106,
+    "title": "Тыква",
+    "ingredient_group": 1
   },
   {
     "id":200,
@@ -30,15 +45,64 @@
     "ingredient_group": 2
   },
   {
+    "id": 202,
+    "title": "Пшено",
+    "ingredient_group": 2
+  },
+  {
+    "id": 203,
+    "title": "Гречка",
+    "ingredient_group": 2
+  },
+  {
     "id": 300,
     "title": "Мясо свинина",
     "ingredient_group": 3
   },
-
+  {
+    "id": 301,
+    "title": "Индейка",
+    "ingredient_group": 3
+  },
+  {
+    "id": 302,
+    "title": "Сосиски",
+    "ingredient_group": 3
+  },
+  {
+    "id": 400,
+    "title": "Сливочное масло",
+    "ingredient_group": 4
+  },
+  {
+    "id": 401,
+    "title": "Пармезан",
+    "ingredient_group": 4
+  },
+  {
+    "id": 403,
+    "title": "Молоко",
+    "ingredient_group": 4
+  },
+  {
+    "id": 404,
+    "title": "Топленое масло",
+    "ingredient_group": 4
+  },
+  {
+    "id": 405,
+    "title": "Яйца",
+    "ingredient_group": 4
+  },
 
   {
     "id": 501,
     "title": "Паста пенне",
+    "ingredient_group": 5
+  },
+  {
+    "id": 502,
+    "title": "Макороны рожки",
     "ingredient_group": 5
   },
   {
@@ -67,6 +131,11 @@
     "ingredient_group": 9
   },
   {
+    "id": 905 ,
+    "title": "Мускатный орех",
+    "ingredient_group": 9
+  },
+  {
     "id": 1000 ,
     "title": "Вода",
     "ingredient_group": 10
@@ -74,6 +143,26 @@
   {
     "id": 1001 ,
     "title": "Масло подсолнечное",
+    "ingredient_group": 10
+  },
+  {
+    "id": 1002 ,
+    "title": "Белые грибы",
+    "ingredient_group": 10
+  },
+  {
+    "id": 1003 ,
+    "title": "Оливковое масло",
+    "ingredient_group": 10
+  },
+  {
+    "id": 1004 ,
+    "title": "Шампиньоны",
+    "ingredient_group": 10
+  },
+  {
+    "id": 1005 ,
+    "title": "Вчерашний багет",
     "ingredient_group": 10
   }
 ]
