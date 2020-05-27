@@ -1,0 +1,48 @@
+[
+  {
+    "id":200,
+    "title": "Пшеничная Мука",
+    "ingredient_group": 2
+  },
+  {
+    "id": 201,
+    "title": "Рис динный",
+    "ingredient_group": 2
+  },
+  {
+    "id": 501,
+    "title": "Паста пенне",
+    "ingredient_group": 5
+  },
+  {
+    "id": 901 ,
+    "title": "Сахар",
+    "ingredient_group": 9
+  },
+  {
+    "id": 900 ,
+    "title": "Соль",
+    "ingredient_group": 9
+  },
+  {
+    "id": 902 ,
+    "title": "Черный перец",
+    "ingredient_group": 9
+  },
+  {
+    "id": 903 ,
+    "title": "Имбирь",
+    "ingredient_group": 9
+  },
+  {
+    "id": 904 ,
+    "title": "Кориандр",
+    "ingredient_group": 9
+  },
+  {
+    "id": 1000 ,
+    "title": "Вода",
+    "ingredient_group": 10
+  }
+
+]
