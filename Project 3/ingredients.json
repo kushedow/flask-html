@@ -1,14 +1,41 @@
 [
   {
+    "id":100,
+    "title": "Картофель",
+    "ingredient_group": 1
+  },
+  {
+    "id":101,
+    "title": "Морковь",
+    "ingredient_group": 1
+  },
+  {
+    "id":102,
+    "title": "Лук",
+    "ingredient_group": 1
+  },
+  {
+    "id":103,
+    "title": "Чеснок",
+    "ingredient_group": 1
+  },
+  {
     "id":200,
     "title": "Пшеничная Мука",
     "ingredient_group": 2
   },
   {
     "id": 201,
-    "title": "Рис динный",
+    "title": "Рис",
     "ingredient_group": 2
   },
+  {
+    "id": 300,
+    "title": "Мясо свинина",
+    "ingredient_group": 3
+  },
+
+
   {
     "id": 501,
     "title": "Паста пенне",
@@ -43,6 +70,10 @@
     "id": 1000 ,
     "title": "Вода",
     "ingredient_group": 10
+  },
+  {
+    "id": 1001 ,
+    "title": "Масло подсолнечное",
+    "ingredient_group": 10
   }
-
 ]
