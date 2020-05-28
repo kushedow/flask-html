@@ -18,6 +18,96 @@
     "id":103,
     "title": "Чеснок",
     "ingredient_group": 1
+  }, 
+  {
+    "id":104,
+    "title": "Лук-шалот",
+    "ingredient_group": 1
+  },
+  {
+    "id":105,
+    "title": "Петрушка",
+    "ingredient_group": 1
+  },
+  {
+    "id":106,
+    "title": "Тыква",
+    "ingredient_group": 1
+  },
+  {
+    "id":107,
+    "title": "Салатный микс",
+    "ingredient_group": 1
+  },
+  {
+    "id":107,
+    "title": "Кинза",
+    "ingredient_group": 1
+  },
+  {
+    "id":108,
+    "title": "Огурцы",
+    "ingredient_group": 1
+  },
+  {
+    "id":109,
+    "title": "Зеленый лук",
+    "ingredient_group": 1
+  },
+  {
+    "id":110,
+    "title": "Редиска",
+    "ingredient_group": 1
+  },
+  {
+    "id":111,
+    "title": "Укроп",
+    "ingredient_group": 1
+  },
+  {
+    "id":112,
+    "title": "Корень сельдерея",
+    "ingredient_group": 1
+  },
+  {
+    "id":113,
+    "title": "Красная капуста",
+    "ingredient_group": 1
+  },
+  {
+    "id":114,
+    "title": "Помидоры",
+    "ingredient_group": 1
+  },
+  {
+    "id":115,
+    "title": "Баклажан",
+    "ingredient_group": 1
+  },
+  {
+    "id":116,
+    "title": "Замороженный зеленый горошек",
+    "ingredient_group": 1
+  },
+  {
+    "id":117,
+    "title": "Броколли",
+    "ingredient_group": 1
+  },
+  {
+    "id":118,
+    "title": "Чили перец",
+    "ingredient_group": 1
+  },
+  {
+    "id":119,
+    "title": "Красный лук",
+    "ingredient_group": 1
+  },
+  {
+    "id":120,
+    "title": "Свекла",
+    "ingredient_group": 1
   },
   {
     "id":200,
@@ -30,16 +120,224 @@
     "ingredient_group": 2
   },
   {
+    "id": 202,
+    "title": "Пшено",
+    "ingredient_group": 2
+  },
+  {
+    "id": 203,
+    "title": "Гречка",
+    "ingredient_group": 2
+  },
+  {
+    "id": 203,
+    "title": "Гречка",
+    "ingredient_group": 2
+  },
+  {
+    "id": 204,
+    "title": "Киноа",
+    "ingredient_group": 2
+  },
+  {
     "id": 300,
     "title": "Мясо свинина",
     "ingredient_group": 3
   },
-
-
+  {
+    "id": 301,
+    "title": "Индейка филе",
+    "ingredient_group": 3
+  },
+  {
+    "id": 302,
+    "title": "Сосиски",
+    "ingredient_group": 3
+  },
+  {
+    "id": 303,
+    "title": "Фарш говяжий",
+    "ingredient_group": 3
+  },
+  {
+    "id": 304,
+    "title": "Ветчина",
+    "ingredient_group": 3
+  },
+  {
+    "id": 305,
+    "title": "Куриная грудка (филе)",
+    "ingredient_group": 3
+  },
+  {
+    "id": 306,
+    "title": "Бекон",
+    "ingredient_group": 3
+  },
+  {
+    "id": 400,
+    "title": "Сливочное масло",
+    "ingredient_group": 4
+  },
+  {
+    "id": 401,
+    "title": "Пармезан",
+    "ingredient_group": 4
+  },
+  {
+    "id": 403,
+    "title": "Молоко",
+    "ingredient_group": 4
+  },
+  {
+    "id": 404,
+    "title": "Топленое масло",
+    "ingredient_group": 4
+  },
+  {
+    "id": 405,
+    "title": "Яйца",
+    "ingredient_group": 4
+  },
+  {
+    "id": 406,
+    "title": "Кефир",
+    "ingredient_group": 4
+  },
+  {
+    "id": 407,
+    "title": "Йогурт натуральный",
+    "ingredient_group": 4
+  },
+  {
+    "id": 408,
+    "title": "Сыр",
+    "ingredient_group": 4
+  },
+  {
+    "id": 409,
+    "title": "Сливки",
+    "ingredient_group": 4
+  },
   {
     "id": 501,
     "title": "Паста пенне",
     "ingredient_group": 5
+  },
+  {
+    "id": 502,
+    "title": "Макароны",
+    "ingredient_group": 5
+  },
+  {
+    "id": 503,
+    "title": "Макароны спиральки",
+    "ingredient_group": 5
+  },
+  {
+    "id": 504,
+    "title": "Макароны ракушки",
+    "ingredient_group": 5
+  },
+  {
+    "id": 505,
+    "title": "Тальятелле",
+    "ingredient_group": 5
+  },
+  {
+    "id": 600,
+    "title": "Скумбрия",
+    "ingredient_group": 6
+  },
+  {
+    "id": 601,
+    "title": "Корюшка",
+    "ingredient_group": 6
+  },
+  {
+    "id": 602,
+    "title": "Тунец в собственном соку",
+    "ingredient_group": 6
+  },
+  {
+    "id": 603,
+    "title": "Кальмар филе",
+    "ingredient_group": 6
+  },
+  {
+    "id": 604,
+    "title": "Окунь",
+    "ingredient_group": 6
+  },
+  {
+    "id": 700,
+    "title": "Авокадо",
+    "ingredient_group": 7
+  },
+  {
+    "id": 701,
+    "title": "Смесь семечек",
+    "ingredient_group": 7
+  },
+  {
+    "id": 702,
+    "title": "Яблоки",
+    "ingredient_group": 7
+  },
+  {
+    "id": 703,
+    "title": "Лимон",
+    "ingredient_group": 7
+  },
+  {
+    "id": 704,
+    "title": "Груши",
+    "ingredient_group": 7
+  },
+  {
+    "id": 705,
+    "title": "Апельсины",
+    "ingredient_group": 7
+  },
+  {
+    "id": 706,
+    "title": "Чернослив",
+    "ingredient_group": 7
+  },
+  {
+    "id": 707,
+    "title": "Изюм",
+    "ingredient_group": 7
+  },
+  {
+    "id": 708,
+    "title": "Грецкие орехи",
+    "ingredient_group": 7
+  },
+  {
+    "id": 800,
+    "title": "Томатная паста",
+    "ingredient_group": 8
+  },
+  {
+    "id": 801,
+    "title": "Острый соус чили",
+    "ingredient_group": 8
+  },
+  {
+    "id": 802,
+    "title": "Тахини",
+    "ingredient_group": 8
+  },
+  {
+    "id": 803,
+    "title": "Дижонская горчица",
+    "ingredient_group": 8
+  },
+  {
+    "id": 804,
+    "title": "Дижонская горчица",
+    "ingredient_group": 8
   },
   {
     "id": 901 ,
@@ -67,6 +365,26 @@
     "ingredient_group": 9
   },
   {
+    "id": 905 ,
+    "title": "Мускатный орех",
+    "ingredient_group": 9
+  },
+  {
+    "id": 906 ,
+    "title": "Сода",
+    "ingredient_group": 9
+  },
+  {
+    "id": 907 ,
+    "title": "Сушеные травы",
+    "ingredient_group": 9
+  },
+  {
+    "id": 908 ,
+    "title": "Ванильный сахар",
+    "ingredient_group": 9
+  },
+  {
     "id": 1000 ,
     "title": "Вода",
     "ingredient_group": 10
@@ -74,6 +392,66 @@
   {
     "id": 1001 ,
     "title": "Масло подсолнечное",
+    "ingredient_group": 10
+  },
+  {
+    "id": 1002 ,
+    "title": "Белые грибы",
+    "ingredient_group": 10
+  },
+  {
+    "id": 1003 ,
+    "title": "Оливковое масло",
+    "ingredient_group": 10
+  },
+  {
+    "id": 1004 ,
+    "title": "Шампиньоны",
+    "ingredient_group": 10
+  },
+  {
+    "id": 1005 ,
+    "title": "Вчерашний багет",
+    "ingredient_group": 10
+  },
+  {
+    "id": 1006 ,
+    "title": "Белая фасоль (консервы)",
+    "ingredient_group": 10
+  },
+  {
+    "id": 1007 ,
+    "title": "Лимонный сок",
+    "ingredient_group": 10
+  },
+  {
+    "id": 1008 ,
+    "title": "Тортильи",
+    "ingredient_group": 10
+  },
+  {
+    "id": 1009 ,
+    "title": "Тонкий лаваш",
+    "ingredient_group": 10
+  },
+  {
+    "id": 1010 ,
+    "title": "Пита",
+    "ingredient_group": 10
+  },
+  {
+    "id": 1011 ,
+    "title": "Белое винишко",
+    "ingredient_group": 10
+  },
+  {
+    "id": 1012 ,
+    "title": "Коричневый сахар",
+    "ingredient_group": 10
+  },
+  {
+    "id": 1013 ,
+    "title": "Слоеное б/д тесто",
     "ingredient_group": 10
   }
 ]
