@@ -40,11 +40,6 @@
     "ingredient_group": 1
   },
   {
-    "id":107,
-    "title": "Кинза",
-    "ingredient_group": 1
-  },
-  {
     "id":108,
     "title": "Огурцы",
     "ingredient_group": 1
@@ -110,6 +105,11 @@
     "ingredient_group": 1
   },
   {
+    "id":121,
+    "title": "Кинза",
+    "ingredient_group": 1
+  },
+  {
     "id":200,
     "title": "Пшеничная Мука",
     "ingredient_group": 2
@@ -122,11 +122,6 @@
   {
     "id": 202,
     "title": "Пшено",
-    "ingredient_group": 2
-  },
-  {
-    "id": 203,
-    "title": "Гречка",
     "ingredient_group": 2
   },
   {
