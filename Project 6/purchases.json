@@ -1,0 +1,416 @@
+[
+  {
+    "id": 1,
+    "card": 1,
+    "store": 1,
+    "sum": 1500,
+    "date": "2.05.2020",
+    "bonus_earned": 225,
+    "bonus_spent": 0
+  },
+  {
+    "id": 2,
+    "card": 3,
+    "store": 5,
+    "sum": 990,
+    "date": "2.05.2020",
+    "bonus_earned": 99,
+    "bonus_spent": 0
+  },
+  {
+    "id": 3,
+    "card": 4,
+    "store": 7,
+    "sum": 1700,
+    "date": "5.05.2020",
+    "bonus_earned": 85,
+    "bonus_spent": 0
+  },
+  {
+    "id": 4,
+    "card": 2,
+    "store": 2,
+    "sum": 2100,
+    "date": "6.05.2020",
+    "bonus_earned": 105,
+    "bonus_spent": 0
+  },
+  {
+    "id": 5,
+    "card": 6,
+    "store": 3,
+    "sum": 3290,
+    "date": "7.05.2020",
+    "bonus_earned": 494,
+    "bonus_spent": 0
+  },
+  {
+    "id": 6,
+    "card": 7,
+    "store": 10,
+    "sum": 1450,
+    "date": "7.05.2020",
+    "bonus_earned": 145,
+    "bonus_spent": 0
+  },
+  {
+    "id": 7,
+    "card": 5,
+    "store": 4,
+    "sum": 5900,
+    "date": "11.05.2020",
+    "bonus_earned": 590,
+    "bonus_spent": 0
+  },
+  {
+    "id": 8,
+    "card": 8,
+    "store": 15,
+    "sum": 3890,
+    "date": "11.05.2020",
+    "bonus_earned": 389,
+    "bonus_spent": 0
+  },
+  {
+    "id": 9,
+    "card": 6,
+    "store": 8,
+    "sum": 5708,
+    "date": "11.05.2020",
+    "bonus_earned": 856,
+    "bonus_spent": 410
+  },
+  {
+    "id": 10,
+    "card": 1,
+    "store": 17,
+    "sum": 2300,
+    "date": "14.05.2020",
+    "bonus_earned": 345,
+    "bonus_spent": 200
+  },
+  {
+    "id": 11,
+    "card": 4,
+    "store": 6,
+    "sum": 1100,
+    "date": "18.05.2020",
+    "bonus_earned": 55,
+    "bonus_spent": 0
+  },
+  {
+    "id": 12,
+    "card": 9,
+    "store": 9,
+    "sum": 700,
+    "date": "18.05.2020",
+    "bonus_earned": 35,
+    "bonus_spent": 0
+  },
+  {
+    "id": 13,
+    "card": 2,
+    "store": 2,
+    "sum": 1900,
+    "date": "19.05.2020",
+    "bonus_earned": 95,
+    "bonus_spent": 0
+  },
+  {
+    "id": 14,
+    "card": 10,
+    "store": 13,
+    "sum": 8700,
+    "date": "20.05.2020",
+    "bonus_earned": 870,
+    "bonus_spent": 0
+  },
+  {
+    "id": 15,
+    "card": 5,
+    "store": 8,
+    "sum": 3300,
+    "date": "20.05.2020",
+    "bonus_earned": 330,
+    "bonus_spent": 400
+  },
+  {
+    "id": 16,
+    "card": 13,
+    "store": 4,
+    "sum": 1350,
+    "date": "20.05.2020",
+    "bonus_earned": 203,
+    "bonus_spent": 0
+  },
+  {
+    "id": 17,
+    "card": 9,
+    "store": 7,
+    "sum": 3200,
+    "date": "20.05.2020",
+    "bonus_earned": 160,
+    "bonus_spent": 0
+  },
+  {
+    "id": 18,
+    "card": 27,
+    "store": 6,
+    "sum": 3200,
+    "date": "21.05.2020",
+    "bonus_earned": 320,
+    "bonus_spent": 0
+  },
+  {
+    "id": 19,
+    "card": 7,
+    "store": 11,
+    "sum": 2140,
+    "date": "22.05.2020",
+    "bonus_earned": 214,
+    "bonus_spent": 100
+  },
+  {
+    "id": 20,
+    "card": 5,
+    "store": 10,
+    "sum": 7890,
+    "date": "23.05.2020",
+    "bonus_earned": 789,
+    "bonus_spent": 100
+  },
+  {
+    "id": 21,
+    "card": 7,
+    "store": "11",
+    "sum": 1790,
+    "date": "23.05.2020",
+    "bonus_earned": 179,
+    "bonus_spent": 100
+  },
+  {
+    "id": 22,
+    "card": 1,
+    "store": 16,
+    "sum": 4300,
+    "date": "24.05.2020",
+    "bonus_earned": 645,
+    "bonus_spent": 300
+  },
+  {
+    "id": 23,
+    "card": 27,
+    "store": 6,
+    "sum": 690,
+    "date": "24.05.2020",
+    "bonus_earned": 69,
+    "bonus_spent": 200
+  },
+  {
+    "id": 24,
+    "card": 211,
+    "store": 3,
+    "sum": 2100,
+    "date": "24.05.2020",
+    "bonus_earned": 315,
+    "bonus_spent": 0
+  },
+  {
+    "id": 25,
+    "card": 4001,
+    "store": 8,
+    "sum": 4390,
+    "date": "24.05.2020",
+    "bonus_earned": 439,
+    "bonus_spent": 0
+  },
+  {
+    "id": 26,
+    "card": 9,
+    "store": 7,
+    "sum": 320,
+    "date": "24.05.2020",
+    "bonus_earned": 16,
+    "bonus_spent": 100
+  },
+  {
+    "id": 27,
+    "card": 2,
+    "store": 3,
+    "sum": 2900,
+    "date": "28.05.2020",
+    "bonus_earned": 145,
+    "bonus_spent": 0
+  },
+  {
+    "id": 28,
+    "card": 211,
+    "store": 2,
+    "sum": 4300,
+    "date": "28.05.2020",
+    "bonus_earned": 645,
+    "bonus_spent": 300
+  },
+  {
+    "id": 29,
+    "card": 3401,
+    "store": 7,
+    "sum": 4320,
+    "date": "28.05.2020",
+    "bonus_earned": 432,
+    "bonus_spent": 0
+  },
+  {
+    "id": 30,
+    "card": 5501,
+    "store": 5,
+    "sum": 4290,
+    "date": "28.05.2020",
+    "bonus_earned": 644,
+    "bonus_spent": 0
+  },
+  {
+    "id": 31,
+    "card": 8,
+    "store": 15,
+    "sum": 2310,
+    "date": "28.05.2020",
+    "bonus_earned": 231,
+    "bonus_spent": 150
+  }, 
+  {
+    "id": 32,
+    "card": 3,
+    "store": 5,
+    "sum": 1299,
+    "date": "1.06.2020",
+    "bonus_earned": 130,
+    "bonus_spent": 50
+  },
+  {
+    "id": 33,
+    "card": 3,
+    "store": "5",
+    "sum": "780",
+    "date": "1.06.2020",
+    "bonus_earned": 78,
+    "bonus_spent": 50
+  },
+  {
+    "id": 34,
+    "card": 2,
+    "store": 2,
+    "sum": 330,
+    "date": "1.06.2020",
+    "bonus_earned": 17,
+    "bonus_spent": 0
+  },
+  {
+    "id": 35,
+    "card": 1,
+    "store": 3,
+    "sum": 7690,
+    "date": "1.06.2020",
+    "bonus_earned": 1154,
+    "bonus_spent": 0
+  },
+  {
+    "id": 36,
+    "card": 7,
+    "store": 11,
+    "sum": 2500,
+    "date": "2.06.2020",
+    "bonus_earned": 250,
+    "bonus_spent": 100
+  },
+  {
+    "id": 37,
+    "card": 10,
+    "store": 12,
+    "sum": 4340,
+    "date": "2.06.2020",
+    "bonus_earned": 434,
+    "bonus_spent": 0
+  },
+  {
+    "id": 38,
+    "card": 3401,
+    "store": 8,
+    "sum": 2309,
+    "date": "2.06.2020",
+    "bonus_earned": 231,
+    "bonus_spent": 400
+  },
+  {
+    "id": 39,
+    "card": 60001,
+    "store": 6,
+    "sum": 8900,
+    "date": "3.06.2020",
+    "bonus_earned": 445,
+    "bonus_spent": 0
+  },
+  {
+    "id": 40,
+    "card": 2,
+    "store": 2,
+    "sum": 1950,
+    "date": "5.06.2020",
+    "bonus_earned": 98,
+    "bonus_spent": 100
+  },
+  {
+    "id": 41,
+    "card": 5340001,
+    "store": 14,
+    "sum": 780,
+    "date": "5.06.2020",
+    "bonus_earned": 117,
+    "bonus_spent": 0
+  },
+  {
+    "id": 42,
+    "card": 53200001,
+    "store": 15,
+    "sum": 4200,
+    "date": "5.06.2020",
+    "bonus_earned": 210,
+    "bonus_spent": 0
+  },
+  {
+    "id": 43,
+    "card": 4004561,
+    "store": 15,
+    "sum": 4300,
+    "date": "5.06.2020",
+    "bonus_earned": 430,
+    "bonus_spent": 0
+  },
+  {
+    "id": 44,
+    "card": 450041,
+    "store": 16,
+    "sum": 4320,
+    "date": "7.06.2020",
+    "bonus_earned": 432,
+    "bonus_spent": 0
+  },
+  {
+    "id": 45,
+    "card": 4004561,
+    "store": 13,
+    "sum": 5400,
+    "date": "7.06.2020",
+    "bonus_earned": 540,
+    "bonus_spent": 400
+  },
+  {
+    "id": 46,
+    "card": 53200001,
+    "store": 10,
+    "sum": 1900,
+    "date": "7.06.2020",
+    "bonus_earned": 95,
+    "bonus_spent": 0
+  }
+]
