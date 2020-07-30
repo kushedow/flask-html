@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Ducks Gone Hard</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    @font-face {
+      font-family: "Gilroy";
+      font-weight: normal;
+      font-style: normal;
+
+      src: url("../static/fonts/gilroy-regular.woff2") format("woff2"),
+      url("../static/fonts/gilroy-regular.woff") format("woff"),
+      url(".../static/fonts/gilroy-regular.ttf") format("truetype");
+    }
+    @font-face {
+      font-family: "Gilroy";
+      font-weight: 500;
+      font-style: normal;
+
+      src: url("../static/fonts/gilroy-medium.woff2") format("woff2"),
+      url("../static/fonts/gilroy-medium.woff") format("woff"),
+      url(".../static/fonts/gilroy-medium.ttf") format("truetype");
+    }
+    @font-face {
+      font-family: "Gilroy";
+      font-weight: bold;
+      font-style: normal;
+
+      src: url("../static/fonts/gilroy-bold.woff2") format("woff2"),
+      url("../static/fonts/gilroy-bold.woff") format("woff"),
+      url(".../static/fonts/gilroy-bold.ttf") format("truetype");
+    }
+    body {
+      background: #FAFAFA;
+      font-family: Roboto, Arial, sans-serif;
+      font-size: 18px;
+      font-weight: normal;
+      line-height: 1.4;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+      font-family: Gilroy, Tahoma, sans-serif;
+    }
+
+    .btn {
+      font-weight: 500;
+    }
+
+    .btn-warning {
+      background-color: #FDDF6D;
+      border-color: #FDDF6D;
+    }
+
+    .item-descr {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+
+<body class="d-flex flex-column h-100">
+  <header class="container mt-3">
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="#">
+        <img src="../static/logo.svg" alt="Ducks Gone Hard" width="181">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end text-right" id="navbarNav">
+        <div class="search-container pr-4">
+          <form action="/" class="w-100">
+            <div class="input-group">
+              <input type="text" placeholder="Поиск.." name="search" style="min-width: 300px;" class="px-3">
+              <div class="input-group-append">
+                <button type="submit" class="btn btn-outline-secondary">Найти ту самую</button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="btn btn-warning px-3" href="#">Подать объявление</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="container my-4 pb-5">
+
+    <section class="p-5" style="background: #fff; border-radius: 6px; box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.05);">
+      <h1 class="h2 mb-4 font-weight-bold">Batman duck</h1>
+      <div class="row">
+        <div class="col-7">
+          <img src="../static/d4.jpg" alt="" width="600">
+        </div>
+        <div class="col-5">
+          <div class="px-4">
+            <p class="h2 font-weight-bold pb-2">990 Р</p>
+            <p class="item-descr pb-2">Хотел подарить девушке на&nbsp;день рождение, обиделась, сказала что я&nbsp;ей&nbsp;намекаю на&nbsp;то, что она очень долго собирается и&nbsp;вообще нам надо сделать паузу в&nbsp;отношениях. Пока эта пауза длится, надо что-то кушать, продам недорого, торг. Осмотр у&nbsp;вас дома (если что я&nbsp;люблю пельмени, но&nbsp;и&nbsp;макароны поем)</p>
+            <hr>
+            <div class="info-wrap pt-2 pb-3 d-flex align-items-center">
+              <img src="../static/safe.svg" alt="" width="30">
+              <p class="m-0 p-0 pl-3">Безопасная сделка</p>
+            </div>
+            <div class="info-wrap pb-3 d-flex align-items-center">
+              <img src="../static/delivery-truck.svg" alt="" width="26">
+              <p class="m-0 p-0 pl-3">Возможна доставка</p>
+            </div>
+            <div class="adress-wrap pt-2">
+              <p class="mb-0 pb-0 text-muted">Адрес:</p>
+              <p class="mt-0 pt-0" style="font-size: 20px;">СПб, пр. Славы, 32</p>
+            </div>
+            <div class="seller-wrap pt-2">
+              <p class="mb-0 pb-0 text-muted">Продавец:</p>
+              <p class="mt-0 pt-0" style="font-size: 20px;">Ярослава Ирядышком</p>
+            </div>
+            <a href="#" class="btn btn-warning px-4 py-3 mt-4">Позвонить продавцу</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <footer class="footer container">
+    <div class="bg-light mt-auto py-3 px-2 text-center border-top" style="border-color: #979393;">
+      <p class="m-0 p-0" style="font-size: 12px; line-height: 1.5; color: #979393;">© ООО «Ducks Gone Hard» 2020. <br>
+        <a href="#" style="text-decoration: underline;color: #979393;">Условия использования</a><br>
+        <a href="#" style="text-decoration: underline;color: #979393;">Политика о данных пользователей.</a>
+      </p>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
