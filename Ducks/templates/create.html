@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Item page | Ducks Gone Hard</title>
+  <title>Create | Ducks Gone Hard</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <style>
@@ -94,40 +94,59 @@
     </nav>
   </header>
   <main class="container my-4 pb-5">
-
     <section class="p-5" style="background: #fff; border-radius: 6px; box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.05);">
-      <h1 class="h2 mb-4 font-weight-bold">Batman duck</h1>
-      <div class="row">
-        <div class="col-7">
-          <img src="../static/d4.jpg" alt="" width="600">
-        </div>
-        <div class="col-5">
-          <div class="px-4">
-            <p class="h2 font-weight-bold pb-2">990 Р</p>
-            <p class="item-descr pb-2">Хотел подарить девушке на&nbsp;день рождение, обиделась, сказала что я&nbsp;ей&nbsp;намекаю на&nbsp;то, что она очень долго собирается и&nbsp;вообще нам надо сделать паузу в&nbsp;отношениях. Пока эта пауза длится, надо что-то кушать, продам недорого, торг. Осмотр у&nbsp;вас дома (если что я&nbsp;люблю пельмени, но&nbsp;и&nbsp;макароны поем)</p>
-            <hr>
-            <div class="info-wrap pt-2 pb-3 d-flex align-items-center">
-              <img src="../static/safe.svg" alt="" width="30">
-              <p class="m-0 p-0 pl-3">Безопасная сделка</p>
+      <h1 class="h2 mb-4 font-weight-bold">Разместить объявление</h1>
+      <form action="/">
+        <div class="row">
+          <div class="col-6">
+            <div class="form-group">
+              <label for="itemName">Название</label>
+              <input type="text" class="form-control" id="itemName">
             </div>
-            <div class="info-wrap pb-3 d-flex align-items-center">
-              <img src="../static/delivery-truck.svg" alt="" width="26">
-              <p class="m-0 p-0 pl-3">Возможна доставка</p>
+            <div class="form-group">
+              <label for="itemDescr">Описание</label>
+              <textarea class="form-control" name="" id="itemDescr" cols="30" rows="3"></textarea>
             </div>
-            <div class="adress-wrap pt-2">
-              <p class="mb-0 pb-0 text-muted">Адрес:</p>
-              <p class="mt-0 pt-0" style="font-size: 20px;">СПб, пр. Славы, 32</p>
+            <div class="form-group">
+              <label for="itemAddress">Адрес</label>
+              <input type="text" class="form-control" id="itemAddress">
             </div>
-            <div class="seller-wrap pt-2">
-              <p class="mb-0 pb-0 text-muted">Продавец:</p>
-              <p class="mt-0 pt-0" style="font-size: 20px;">Ярослава Ирядышком</p>
+            <div class="form-group">
+              <label for="itemTel">Телефон</label>
+              <input type="tel" class="form-control" id="itemTel">
             </div>
-            <a href="#" class="btn btn-warning px-4 py-3 mt-4">Позвонить продавцу</a>
+          </div>
+          <div class="col-6">
+            <div class="form-group">
+              <label for="customFile">Картинка</label>
+              <div class="custom-file">
+                <input type="file" class="custom-file-input" id="customFile" lang="ru-ru">
+                <label class="custom-file-label" for="customFile">Выбрать изображение</label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="itemPrice">Цена</label>
+              <input type="text" class="form-control" id="itemPrice" style="width: 50%;">
+              <div class="form-check pt-3 pb-1">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">Продается</label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="itemSeller">Продавец</label>
+              <input type="text" class="form-control" id="itemSeller">
+            </div>
+            <div class="form-group">
+              <label for="itemPin">Пин код (введите чтобы сохранить)</label>
+              <input type="text" class="form-control" id="itemPin">
+            </div>
+          </div>
+          <div class="col-12">
+            <input type="submit" class="btn btn-warning px-5 py-3 mt-3" value="Сохранить">
           </div>
         </div>
-      </div>
+      </form>
     </section>
-
   </main>
   <footer class="footer container">
     <div class="bg-light mt-auto py-3 px-2 text-center border-top" style="border-color: #979393;">
@@ -141,4 +160,5 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
+
 </html>
