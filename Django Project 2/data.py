@@ -19,10 +19,10 @@ jobs = [
 
 companies = [
 
-    {"id": "1", "title": "workiro", "logo": "logo1.png", "employee_count": "10", "location": "Новосибирск", "description": ""},
+    {"id": "1", "title": "workiro", "logo": "logo1.png", "employee_count": "10", "location": "Новосибирск", "description": "Разрабатываем мобильные приложения и сервисы для сферы онлайн-обучения."},
     {"id": "2", "title": "rebelrage", "logo": "logo2.png", "employee_count": "24", "location": "Москва", "description": "Мобильные сервисы, программное обеспечение, веб-сайты, мобильные приложения."},
     {"id": "3", "title": "staffingsmarter", "logo": "logo3.png", "employee_count": "123", "location": "Москва", "description": "Сервис онлайн-наблюдения за процессом сдачи экзамена с искусственным интеллектом"},
-    {"id": "4", "title": "evilthreat h", "logo": "logo4.png", "employee_count": "36", "location": "Москва", "description": ""},
+    {"id": "4", "title": "evilthreat h", "logo": "logo4.png", "employee_count": "36", "location": "Москва", "description": "Лидирующее в России и Восточной Европе ПО для проведения вебинаров и видео-конференций."},
     {"id": "5", "title": "hirey ", "logo": "logo5.png", "employee_count": "21", "location": "Воронеж", "description": "Телекоммуникационные и платежные сервисы, которые помогают развиваться бизнесам во всем мире."},
     {"id": "6", "title": "swiftattack", "logo": "logo6.png", "employee_count": "79", "location": "Москва", "description": "Разработка сложных веб-сервисов и мобильных приложений"},
     {"id": "7", "title": "troller", "logo": "logo7.png", "employee_count": "230", "location": "Санкт-Петербург", "description": "Мобильное приложение, позволяющее примерить обувь и выбрать идеальную пару всего в 3 клика"},
