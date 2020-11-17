@@ -1,0 +1,262 @@
+fixtures = [
+  {
+    "model": "myapp.user",
+    "pk": 1,
+    "fields": {
+      "email": "novlu@mail.com",
+      "password": "mkdXjIjYM",
+      "full_name": "Людмила Новикова",
+      "city": 10,
+      "city_ru": "Санкт-Петербург"
+    }
+  },
+  {
+    "model": "myapp.user",
+    "pk": 2,
+    "fields": {
+      "email": "tripper678@yahhaa.com",
+      "password": "eGGPtRKS5",
+      "full_name": "Андрей Васечкин",
+      "city": 11,
+      "city_ru": "Москва"
+    }
+  },
+  {
+    "model": "myapp.user",
+    "pk": 3,
+    "fields": {
+      "email": "georgiberidze@mail.com",
+      "password": "NWRV0Z9ZC",
+      "full_name": "Георги Беридзе",
+      "city": 7,
+      "city_ru": "Тбилиси"
+    }
+  },
+  {
+    "model": "myapp.user",
+    "pk": 4,
+    "fields": {
+      "email": "oksi.laslas89@mail.com",
+      "password": "TenhtQOjv",
+      "full_name": "Оксана Ласкина",
+      "city": 12,
+      "city_ru": "Казань"
+    }
+  },
+  {
+    "model": "myapp.user",
+    "pk": 5,
+    "fields": {
+      "email": "vanyahot888@inmail.com",
+      "password": "5YGRPtYlw",
+      "full_name": "Иван Горячий",
+      "city": 13,
+      "city_ru": "Сочи"
+    }
+  },
+  {
+    "model": "myapp.user",
+    "pk": 6,
+    "fields": {
+      "email": "yanaturkiy@mail.com",
+      "password": "rN3HI4elT",
+      "full_name": "Яна Ивлева",
+      "city": 4,
+      "city_ru": "Стамбул"
+    }
+  },
+  {
+    "model": "myapp.user",
+    "pk": 7,
+    "fields": {
+      "email": "irafromrome@yahhaa.com",
+      "password": "mWmSmkNsD",
+      "full_name": "Ирина Самидзе",
+      "city": 1,
+      "city_ru": "Рим"
+    }
+  },
+  {
+    "model": "myapp.user",
+    "pk": 8,
+    "fields": {
+      "email": "pskovstalker@mail.com",
+      "password": "M572gH5lG",
+      "full_name": "Владислав Ванькин",
+      "city": 14,
+      "city_ru": "Псков"
+    }
+  },
+  {
+    "model": "myapp.user",
+    "pk": 9,
+    "fields": {
+      "email": "dinadina13@mail.com",
+      "password": "v2dSbgPYb",
+      "full_name": "Дина Левинова",
+      "city": 9,
+      "city_ru": "Хельсинки"
+    }
+  },
+  {
+    "model": "myapp.user",
+    "pk": 10,
+    "fields": {
+      "email": "mark.loud@mail.com",
+      "password": "pz4ZIYu1l",
+      "full_name": "Марк Звонкий",
+      "city": 15,
+      "city_ru": "Нижний Новгород"
+    }
+  },
+  {
+    "model": "myapp.user",
+    "pk": 11,
+    "fields": {
+      "email": "iraira182@mail.com",
+      "password": "0?@L@*vN",
+      "full_name": "Ира Сундукова",
+      "city": 14,
+      "city_ru": "Псков"
+    }
+  },
+  {
+    "model": "myapp.user",
+    "pk": 12,
+    "fields": {
+      "email": "travelor80lvl@yahhaa.com",
+      "password": "2txnGTK8",
+      "full_name": "Гарик Явлошихин",
+      "city": 12,
+      "city_ru": "Казань"
+    }
+  },
+  {
+    "model": "myapp.user",
+    "pk": 13,
+    "fields": {
+      "email": "slivochnayaya@inmail.com",
+      "password": "Q}DdSx9b",
+      "full_name": "Инга Маслова",
+      "city": 14,
+      "city_ru": "Псков"
+    }
+  },
+  {
+    "model": "myapp.user",
+    "pk": 14,
+    "fields": {
+      "email": "sava999@yahhaa.com",
+      "password": "eFf0mkaa",
+      "full_name": "Петр Савин",
+      "city": 14,
+      "city_ru": "Псков"
+    }
+  },
+  {
+    "model": "myapp.user",
+    "pk": 15,
+    "fields": {
+      "email": "rrrorore@inmail.com",
+      "password": "si%aqRCf",
+      "full_name": "Лев Тигров",
+      "city": 10,
+      "city_ru": "Санкт-Петербург"
+    }
+  },
+  {
+    "model": "myapp.user",
+    "pk": 16,
+    "fields": {
+      "email": "fromrussialesya@yahhaa.com",
+      "password": "J72~4e8t",
+      "full_name": "Олеся Березкина",
+      "city": 9,
+      "city_ru": "Хельсинки"
+    }
+  },
+  {
+    "model": "myapp.user",
+    "pk": 17,
+    "fields": {
+      "email": "boga3@mail.com",
+      "password": "kCDFffPD",
+      "full_name": "Богдан Фрунза",
+      "city": 7,
+      "city_ru": "Тбилиси"
+    }
+  },
+  {
+    "model": "myapp.user",
+    "pk": 18,
+    "fields": {
+      "email": "robert.lima@yahhaa.com",
+      "password": "bwp~mBVq",
+      "full_name": "Роберт Лима",
+      "city": 13,
+      "city_ru": "Сочи"
+    }
+  },
+  {
+    "model": "myapp.user",
+    "pk": 19,
+    "fields": {
+      "email": "sanchichi@inmail.com",
+      "password": "bdz@5ou0",
+      "full_name": "Сан Чи",
+      "city": 10,
+      "city_ru": "Санкт-Петербург"
+    }
+  },
+  {
+    "model": "myapp.user",
+    "pk": 20,
+    "fields": {
+      "email": "zpoprigajka@mail.com",
+      "password": "d~fhTYka",
+      "full_name": "Аня Зайкина",
+      "city": 13,
+      "city_ru": "Сочи"
+    }
+  },
+  {
+    "model": "myapp.country",
+    "pk": 1,
+    "fields": {
+      "name": "Россия",
+      "currency": "RUB"
+    }
+  },
+  {
+    "model": "myapp.country",
+    "pk": 2,
+    "fields": {
+      "name": "Грузия",
+      "currency": "GEL"
+    }
+  },
+  {
+    "model": "myapp.country",
+    "pk": 3,
+    "fields": {
+      "name": "Италия",
+      "currency": "EUR"
+    }
+  },
+  {
+    "model": "myapp.country",
+    "pk": 4,
+    "fields": {
+      "name": "Турция",
+      "currency": "TRY"
+    }
+  },
+  {
+    "model": "myapp.country",
+    "pk": 5,
+    "fields": {
+      "name": "Финляндия",
+      "currency": "EUR"
+    }
+  }
+]
