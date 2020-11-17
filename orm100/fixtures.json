@@ -409,4 +409,49 @@ fixtures = [
       "coutry_ru": "Россия"
     }
   },
+  {
+    "model": "myapp.company",
+    "pk": 1,
+    "fields": {
+      "title": "Андрей Московский",
+      "is_pro": true,
+      "owner": 2
+    }
+  },
+  {
+    "model": "myapp.company",
+    "pk": 2,
+    "fields": {
+      "title": "Любимый Город",
+      "is_pro": true,
+      "owner": 1
+    }
+  },
+  {
+    "model": "myapp.company",
+    "pk": 3,
+    "fields": {
+      "title": "Удивительное рядом",
+      "is_pro": false,
+      "owner": 6
+    }
+  },
+  {
+    "model": "myapp.company",
+    "pk": 4,
+    "fields": {
+      "title": "Вот это поворот",
+      "is_pro": true,
+      "owner": 5
+    }
+  },
+  {
+    "model": "myapp.company",
+    "pk": 5,
+    "fields": {
+      "title": "Танкер300",
+      "is_pro": true,
+      "owner": 4
+    }
+  }
 ]
