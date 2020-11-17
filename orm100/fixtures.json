@@ -258,5 +258,155 @@ fixtures = [
       "name": "Финляндия",
       "currency": "EUR"
     }
-  }
+  },
+  {
+    "model": "myapp.city",
+    "pk": 1,
+    "fields": {
+      "name": "Рим",
+      "timezone": "GMT+1",
+      "country": 3,
+      "coutry_ru": "Италия"
+    }
+  },
+  {
+    "model": "myapp.city",
+    "pk": 2,
+    "fields": {
+      "name": "Милан",
+      "timezone": "GMT+1",
+      "country": 3,
+      "coutry_ru": "Италия"
+    }
+  },
+  {
+    "model": "myapp.city",
+    "pk": 3,
+    "fields": {
+      "name": "Венеция",
+      "timezone": "GMT+1",
+      "country": 3,
+      "coutry_ru": "Италия"
+    }
+  },
+  {
+    "model": "myapp.city",
+    "pk": 4,
+    "fields": {
+      "name": "Стамбул",
+      "timezone": "GMT+3",
+      "country": 4,
+      "coutry_ru": "Турция"
+    }
+  },
+  {
+    "model": "myapp.city",
+    "pk": 5,
+    "fields": {
+      "name": "Кемер",
+      "timezone": "GMT+3",
+      "country": 4,
+      "coutry_ru": "Турция"
+    }
+  },
+  {
+    "model": "myapp.city",
+    "pk": 6,
+    "fields": {
+      "name": "Сиде",
+      "timezone": "GMT+3",
+      "country": 4,
+      "coutry_ru": "Турция"
+    }
+  },
+  {
+    "model": "myapp.city",
+    "pk": 7,
+    "fields": {
+      "name": "Тбилиси",
+      "timezone": "GMT+4",
+      "country": 2,
+      "coutry_ru": "Грузия"
+    }
+  },
+  {
+    "model": "myapp.city",
+    "pk": 8,
+    "fields": {
+      "name": "Казбеги",
+      "timezone": "GMT+4",
+      "country": 2,
+      "coutry_ru": "Грузия"
+    }
+  },
+  {
+    "model": "myapp.city",
+    "pk": 9,
+    "fields": {
+      "name": "Хельсинки",
+      "timezone": "GMT+2",
+      "country": 5,
+      "coutry_ru": "Финляндия"
+    }
+  },
+  {
+    "model": "myapp.city",
+    "pk": 10,
+    "fields": {
+      "name": "Санкт-Петербург",
+      "timezone": "GMT+3",
+      "country": 1,
+      "coutry_ru": "Россия"
+    }
+  },
+  {
+    "model": "myapp.city",
+    "pk": 11,
+    "fields": {
+      "name": "Москва",
+      "timezone": "GMT+3",
+      "country": 1,
+      "coutry_ru": "Россия"
+    }
+  },
+  {
+    "model": "myapp.city",
+    "pk": 12,
+    "fields": {
+      "name": "Казань",
+      "timezone": "GMT+3",
+      "country": 1,
+      "coutry_ru": "Россия"
+    }
+  },
+  {
+    "model": "myapp.city",
+    "pk": 13,
+    "fields": {
+      "name": "Сочи",
+      "timezone": "GMT+3",
+      "country": 1,
+      "coutry_ru": "Россия"
+    }
+  },
+  {
+    "model": "myapp.city",
+    "pk": 14,
+    "fields": {
+      "name": "Псков",
+      "timezone": "GMT+3",
+      "country": 1,
+      "coutry_ru": "Россия"
+    }
+  },
+  {
+    "model": "myapp.city",
+    "pk": 15,
+    "fields": {
+      "name": "Нижний Новгород",
+      "timezone": "GMT+3",
+      "country": 1,
+      "coutry_ru": "Россия"
+    }
+  },
 ]
