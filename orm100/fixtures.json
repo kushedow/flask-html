@@ -266,7 +266,7 @@ fixtures = [
       "name": "Рим",
       "timezone": "GMT+1",
       "country": 3,
-      "coutry_ru": "Италия"
+      "country_ru": "Италия"
     }
   },
   {
@@ -276,7 +276,7 @@ fixtures = [
       "name": "Милан",
       "timezone": "GMT+1",
       "country": 3,
-      "coutry_ru": "Италия"
+      "country_ru": "Италия"
     }
   },
   {
@@ -286,7 +286,7 @@ fixtures = [
       "name": "Венеция",
       "timezone": "GMT+1",
       "country": 3,
-      "coutry_ru": "Италия"
+      "country_ru": "Италия"
     }
   },
   {
@@ -296,7 +296,7 @@ fixtures = [
       "name": "Стамбул",
       "timezone": "GMT+3",
       "country": 4,
-      "coutry_ru": "Турция"
+      "country_ru": "Турция"
     }
   },
   {
@@ -306,7 +306,7 @@ fixtures = [
       "name": "Кемер",
       "timezone": "GMT+3",
       "country": 4,
-      "coutry_ru": "Турция"
+      "country_ru": "Турция"
     }
   },
   {
@@ -316,7 +316,7 @@ fixtures = [
       "name": "Сиде",
       "timezone": "GMT+3",
       "country": 4,
-      "coutry_ru": "Турция"
+      "country_ru": "Турция"
     }
   },
   {
@@ -326,7 +326,7 @@ fixtures = [
       "name": "Тбилиси",
       "timezone": "GMT+4",
       "country": 2,
-      "coutry_ru": "Грузия"
+      "country_ru": "Грузия"
     }
   },
   {
@@ -336,7 +336,7 @@ fixtures = [
       "name": "Казбеги",
       "timezone": "GMT+4",
       "country": 2,
-      "coutry_ru": "Грузия"
+      "country_ru": "Грузия"
     }
   },
   {
@@ -346,7 +346,7 @@ fixtures = [
       "name": "Хельсинки",
       "timezone": "GMT+2",
       "country": 5,
-      "coutry_ru": "Финляндия"
+      "country_ru": "Финляндия"
     }
   },
   {
@@ -356,7 +356,7 @@ fixtures = [
       "name": "Санкт-Петербург",
       "timezone": "GMT+3",
       "country": 1,
-      "coutry_ru": "Россия"
+      "country_ru": "Россия"
     }
   },
   {
@@ -366,7 +366,7 @@ fixtures = [
       "name": "Москва",
       "timezone": "GMT+3",
       "country": 1,
-      "coutry_ru": "Россия"
+      "country_ru": "Россия"
     }
   },
   {
@@ -376,7 +376,7 @@ fixtures = [
       "name": "Казань",
       "timezone": "GMT+3",
       "country": 1,
-      "coutry_ru": "Россия"
+      "country_ru": "Россия"
     }
   },
   {
@@ -386,7 +386,7 @@ fixtures = [
       "name": "Сочи",
       "timezone": "GMT+3",
       "country": 1,
-      "coutry_ru": "Россия"
+      "country_ru": "Россия"
     }
   },
   {
@@ -396,7 +396,7 @@ fixtures = [
       "name": "Псков",
       "timezone": "GMT+3",
       "country": 1,
-      "coutry_ru": "Россия"
+      "country_ru": "Россия"
     }
   },
   {
@@ -406,7 +406,7 @@ fixtures = [
       "name": "Нижний Новгород",
       "timezone": "GMT+3",
       "country": 1,
-      "coutry_ru": "Россия"
+      "country_ru": "Россия"
     }
   },
   {
