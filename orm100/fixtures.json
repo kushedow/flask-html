@@ -1168,7 +1168,7 @@ fixtures = [
     }
   },
   {
-    "model": "myapp.reviews",
+    "model": "myapp.review",
     "pk": 1,
     "fields": {
       "user": 11,
@@ -1179,7 +1179,7 @@ fixtures = [
     }
   },
   {
-    "model": "myapp.reviews",
+    "model": "myapp.review",
     "pk": 2,
     "fields": {
       "user": 11,
@@ -1190,7 +1190,7 @@ fixtures = [
     }
   },
   {
-    "model": "myapp.reviews",
+    "model": "myapp.review",
     "pk": 3,
     "fields": {
       "user": 12,
@@ -1201,7 +1201,7 @@ fixtures = [
     }
   },
   {
-    "model": "myapp.reviews",
+    "model": "myapp.review",
     "pk": 4,
     "fields": {
       "user": 12,
@@ -1212,7 +1212,7 @@ fixtures = [
     }
   },
   {
-    "model": "myapp.reviews",
+    "model": "myapp.review",
     "pk": 5,
     "fields": {
       "user": 12,
@@ -1223,7 +1223,7 @@ fixtures = [
     }
   },
   {
-    "model": "myapp.reviews",
+    "model": "myapp.review",
     "pk": 6,
     "fields": {
       "user": 13,
@@ -1234,7 +1234,7 @@ fixtures = [
     }
   },
   {
-    "model": "myapp.reviews",
+    "model": "myapp.review",
     "pk": 7,
     "fields": {
       "user": 13,
@@ -1245,7 +1245,7 @@ fixtures = [
     }
   },
   {
-    "model": "myapp.reviews",
+    "model": "myapp.review",
     "pk": 8,
     "fields": {
       "user": 14,
@@ -1256,7 +1256,7 @@ fixtures = [
     }
   },
   {
-    "model": "myapp.reviews",
+    "model": "myapp.review",
     "pk": 9,
     "fields": {
       "user": 15,
@@ -1267,7 +1267,7 @@ fixtures = [
     }
   },
   {
-    "model": "myapp.reviews",
+    "model": "myapp.review",
     "pk": 10,
     "fields": {
       "user": 15,
@@ -1278,7 +1278,7 @@ fixtures = [
     }
   },
   {
-    "model": "myapp.reviews",
+    "model": "myapp.review",
     "pk": 11,
     "fields": {
       "user": 16,
@@ -1289,7 +1289,7 @@ fixtures = [
     }
   },
   {
-    "model": "myapp.reviews",
+    "model": "myapp.review",
     "pk": 12,
     "fields": {
       "user": 17,
@@ -1300,7 +1300,7 @@ fixtures = [
     }
   },
   {
-    "model": "myapp.reviews",
+    "model": "myapp.review",
     "pk": 13,
     "fields": {
       "user": 18,
@@ -1311,7 +1311,7 @@ fixtures = [
     }
   },
   {
-    "model": "myapp.reviews",
+    "model": "myapp.review",
     "pk": 14,
     "fields": {
       "user": 19,
@@ -1322,7 +1322,7 @@ fixtures = [
     }
   },
   {
-    "model": "myapp.reviews",
+    "model": "myapp.review",
     "pk": 15,
     "fields": {
       "user": 20,
@@ -1333,7 +1333,7 @@ fixtures = [
     }
   },
   {
-    "model": "myapp.reviews",
+    "model": "myapp.review",
     "pk": 16,
     "fields": {
       "user": 20,
@@ -1344,7 +1344,7 @@ fixtures = [
     }
   },
   {
-    "model": "myapp.reviews",
+    "model": "myapp.review",
     "pk": 17,
     "fields": {
       "user": 19,
@@ -1355,7 +1355,7 @@ fixtures = [
     }
   },
   {
-    "model": "myapp.reviews",
+    "model": "myapp.review",
     "pk": 18,
     "fields": {
       "user": 18,
@@ -1366,7 +1366,7 @@ fixtures = [
     }
   },
   {
-    "model": "myapp.reviews",
+    "model": "myapp.review",
     "pk": 19,
     "fields": {
       "user": 11,
@@ -1377,7 +1377,7 @@ fixtures = [
     }
   },
   {
-    "model": "myapp.reviews",
+    "model": "myapp.review",
     "pk": 20,
     "fields": {
       "user": 14,
@@ -1388,7 +1388,7 @@ fixtures = [
     }
   },
   {
-    "model": "myapp.reviews",
+    "model": "myapp.review",
     "pk": 21,
     "fields": {
       "user": 16,
@@ -1399,7 +1399,7 @@ fixtures = [
     }
   },
   {
-    "model": "myapp.reviews",
+    "model": "myapp.review",
     "pk": 22,
     "fields": {
       "user": 17,
@@ -1410,7 +1410,7 @@ fixtures = [
     }
   },
   {
-    "model": "myapp.reviews",
+    "model": "myapp.review",
     "pk": 23,
     "fields": {
       "user": 17,
@@ -1421,7 +1421,7 @@ fixtures = [
     }
   },
   {
-    "model": "myapp.reviews",
+    "model": "myapp.review",
     "pk": 24,
     "fields": {
       "user": 19,
@@ -1432,7 +1432,7 @@ fixtures = [
     }
   },
   {
-    "model": "myapp.reviews",
+    "model": "myapp.review",
     "pk": 25,
     "fields": {
       "user": 19,
